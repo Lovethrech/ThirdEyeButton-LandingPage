@@ -21,7 +21,7 @@ import HeroSignUpBtn from "./HeroSignUpBtn.vue";
 #hero-text-and-btn-ctn{
 background: url("/public/hero-top-left.png") top left/auto 16vh no-repeat,
     url("/public/hero-top-right.png") top right/30vh no-repeat,
-    url("/public/hero-bottom-right.png") bottom right 34vh/24vh no-repeat
+    url("/public/hero-bottom-right.png") bottom right 46vh/24vh no-repeat
 ;
 margin-top:4vh;
 height: 60vh;
@@ -53,7 +53,7 @@ justify-content: center;
     }
 }
 
-@media screen and (min-height:1360px) {
+@media screen and (width: 1024px) and (min-height:1360px) {
     #hero-text-and-btn-ctn{
         background: url("/public/hero-bottom-right.png") bottom center/34vh no-repeat;
         margin-top:6vh;

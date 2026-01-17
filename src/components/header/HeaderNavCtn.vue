@@ -33,7 +33,7 @@ import HeaderClientBtn from './HeaderClientBtn.vue';
     }
 }
 
-@media screen and (min-height:1360px) {
+@media screen and (width: 1024px) and (min-height:1360px) {
     .header-nav-ctn{
         position: absolute;
         top: 7.8vh;

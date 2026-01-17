@@ -48,7 +48,7 @@
     }
 }
 
-@media screen and (min-height:1360px) {
+@media screen and (width: 1024px) and (min-height:1360px) {
     #header-client-btn-main-ctn{
         margin:0;
     }
