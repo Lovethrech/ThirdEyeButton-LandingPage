@@ -1,0 +1,38 @@
+<svg
+  width="128"
+  height="128"
+  viewBox="0 0 128 128"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Soft abstract blob -->
+  <path
+    d="M30 64
+       C30 38 52 20 74 24
+       C98 28 110 48 104 72
+       C98 96 72 108 50 100
+       C36 94 30 78 30 64Z"
+    fill="currentColor"
+    opacity="0.15"
+  />
+
+  <!-- Curved stroke -->
+  <path
+    d="M24 70
+       C24 96 54 112 84 104"
+    stroke="currentColor"
+    stroke-width="6"
+    stroke-linecap="round"
+    fill="none"
+  />
+
+  <!-- Circle outline -->
+  <circle
+    cx="88"
+    cy="36"
+    r="18"
+    stroke="currentColor"
+    stroke-width="6"
+    fill="none"
+  />
+</svg>
