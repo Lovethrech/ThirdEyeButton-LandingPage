@@ -47,4 +47,14 @@
         font-size:2vh;
     }
 }
+
+@media screen and (min-height:1360px) {
+    #header-client-btn-main-ctn{
+        margin:0;
+    }
+    #header-client-btn{
+        width: 80vw;
+        font-size:2vh;
+    }
+}
 </style>

@@ -38,4 +38,13 @@ console.log(HeaderMenuDetails.name)
         text-align:center
     }
 }
+
+@media screen and (min-height:1360px) {
+    .header-menu-ctn-main-ctn{
+        flex-direction: column;
+        margin:0;
+        width: 100%;
+        text-align:center
+    }
+}
 </style>
