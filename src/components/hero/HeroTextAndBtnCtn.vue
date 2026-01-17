@@ -32,4 +32,10 @@ justify-content: center;
     background-color: transparent;
     width: 50%;
 }
+
+@media screen and (max-width:990px) {
+    #hero-text-and-btn-ctn-mini-ctn{
+        width: 100%;
+    }
+}
 </style>
