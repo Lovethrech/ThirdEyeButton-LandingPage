@@ -1,14 +1,17 @@
 <script setup>
-import 
+import { defineProps } from 'vue';
+
+const {menuIcon}=defineProps(["menuIcon"]);
 </script>
 
 <template>
     <div 
         class="header-menu-icon"
+        v-html="menuIcon"
     >
-        <i class="ri-menu-4-line"></i>
-        <!-- <i class="ri-close-large-line"></i> -->
     </div>
+    <!-- <i class="ri-menu-4-line"></i> -->
+        <!-- <i class="ri-close-large-line"></i> -->
 </template>
 
 <style scoped>
