@@ -19,7 +19,21 @@ import HeaderClientBtn from './HeaderClientBtn.vue';
     flex-direction: row;
     gap:2vw;
 }
-@media screen and (max-width:990px) {
+@media screen and (max-width:990px){
+    .header-nav-ctn{
+        position: absolute;
+        top: 7.8vh;
+        right:0;
+        flex-direction: column;
+        gap: 4vh;
+        width: 100%;
+        height: 90vh;
+        background: linear-gradient(to bottom, #cae0ff, #ffffff);
+        display:none;
+    }
+}
+
+@media screen and (min-height:1360px) {
     .header-nav-ctn{
         position: absolute;
         top: 7.8vh;

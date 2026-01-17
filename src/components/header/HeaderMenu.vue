@@ -39,4 +39,13 @@ const {name, link}=defineProps(["name", "link"]);
         font-size: 2.6vh;
     }
 }
+
+@media screen and (min-height:1360px) {
+    .header-menu-ctn{
+        margin: 2vh;
+    }
+    .header-menu-name{
+        font-size: 2.6vh;
+    }
+}
 </style>

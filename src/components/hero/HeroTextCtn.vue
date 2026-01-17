@@ -39,4 +39,13 @@
         font-size: 6vh;
     }
 }
+
+@media screen and (min-height:1360px) {
+    #hero-text-desc{
+        font-size: 1.4vh;
+    }
+    #hero-text-title{
+        font-size: 6vh;
+    }
+}
 </style>

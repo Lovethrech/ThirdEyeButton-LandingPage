@@ -42,4 +42,14 @@ justify-content: center;
         width: 100%;
     }
 }
+
+@media screen and (min-height:1360px) {
+    #hero-text-and-btn-ctn{
+        background: url("/public/hero-bottom-right.png") bottom center/34vh no-repeat;
+        margin-top:6vh;
+    }
+    #hero-text-and-btn-ctn-mini-ctn{
+        width: 100%;
+    }
+}
 </style>

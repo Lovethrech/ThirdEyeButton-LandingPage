@@ -17,4 +17,10 @@
         display:flex;
     }
 }
+
+@media screen and (min-height:1360px) {
+    .header-menu-icon{
+        display:flex;
+    }
+}
 </style>
