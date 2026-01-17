@@ -1,7 +1,13 @@
 <template>
-    <div id="hero-sign-up-btn-ctn">
-        <RouterLink to="/">
-            <button id="hero-sign-up-btn">
+    <div 
+        id="hero-sign-up-btn-ctn"
+    >
+        <RouterLink 
+            to="/"
+        >
+            <button 
+                id="hero-sign-up-btn"
+            >
                 Get started now
             </button>
         </RouterLink>

@@ -3,7 +3,9 @@ import HeroTextAndBtnCtn from './HeroTextAndBtnCtn.vue';
 </script>
 
 <template>
-    <div class="main-hero">
+    <div 
+        class="main-hero">
+    
         <HeroTextAndBtnCtn></HeroTextAndBtnCtn>
     </div>
 </template>

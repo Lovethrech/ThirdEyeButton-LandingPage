@@ -1,9 +1,15 @@
 <template>
-    <div class="hero-text-ctn">
-        <p id="hero-text-desc">
+    <div 
+        class="hero-text-ctn"
+    >
+        <p 
+            id="hero-text-desc"
+        >
             Empower Your University Examination with ThirdEyeButton
         </p>
-        <h1 id="hero-text-title">
+        <h1 
+            id="hero-text-title"
+        >
             Revolutionizing
             <br/>
             examination 
