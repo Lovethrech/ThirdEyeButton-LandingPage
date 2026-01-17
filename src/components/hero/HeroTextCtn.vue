@@ -25,9 +25,12 @@
 }
 #hero-text-desc{
     font-size: 1.4vh;
+    font-weight: 500;
+    letter-spacing:1vh;
 }
 #hero-text-title{
     font-size: 10vh;
+    font-weight: 600;
     text-transform: capitalize;
 }
 
