@@ -39,6 +39,9 @@ const {name, link}=defineProps(["name", "link"]);
     .header-menu-name{
         font-size: 2.6vh;
     }
+    .header-menu-name:hover{
+        transform: none;
+    }
 }
 
 @media screen and (width: 1024px) and (min-height:1360px) {
@@ -47,6 +50,9 @@ const {name, link}=defineProps(["name", "link"]);
     }
     .header-menu-name{
         font-size: 2.6vh;
+    }
+    .header-menu-name:hover{
+        transform: none;
     }
 }
 </style>

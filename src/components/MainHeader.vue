@@ -1,5 +1,5 @@
 <script setup>
-import {ref, onMounted, computed} from 'vue';
+import {ref, computed} from 'vue';
 import HeaderLogo from './header/HeaderLogo.vue';
 import HeaderNavCtn from './header/HeaderNavCtn.vue';
 import HeaderMenuIcon from './header/HeaderMenuIcon.vue';
@@ -7,26 +7,20 @@ import HeaderMenuIcon from './header/HeaderMenuIcon.vue';
 const screenWidth=ref(window.innerWidth);
 const displayMenu=ref("flex");
 const menuIcon=ref("<i class='ri-menu-4-line'></i>");
-
-
-onMounted(()=>{
-    const screenWidthComputed= computed(()=>screenWidth);    
-});
+const screenWidthComputed= computed(()=>screenWidth); 
 const screenView=screenWidthComputed.value._value;
 
 if(screenView <= 990){
-    displayMenu.value= "none";
-    
+    displayMenu.value= "none";    
 }
-console.log(screenView);
-
 const showDropdown=()=>{
-    if(screenView<=990){
-
-    }
     if (menuIcon.value==="<i class='ri-menu-4-line'></i>"){
         menuIcon.value="<i class='ri-close-large-line'></i>";
         displayMenu.value="flex";
+    }
+    else{
+        menuIcon.value="<i class='ri-menu-4-line'></i>";
+        displayMenu.value="none";
     }
 }
 
@@ -37,7 +31,7 @@ const showDropdown=()=>{
     <header>
         <HeaderLogo></HeaderLogo>
         <HeaderNavCtn :style="{display: displayMenu}"></HeaderNavCtn>
-        <HeaderMenuIcon :menuIcon="menuIcon" @on-click="showDropdown"></HeaderMenuIcon>
+        <HeaderMenuIcon :menuIcon="menuIcon" :onClick="showDropdown"></HeaderMenuIcon>
     </header>
 </template>
 
