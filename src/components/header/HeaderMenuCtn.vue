@@ -9,8 +9,8 @@ console.log(HeaderMenuDetails.name)
     <div class="header-menu-ctn-main-ctn">
         <div v-for="HeaderMenuDetail in HeaderMenuDetails" :key="HeaderMenuDetail.id" class="header-menu-ctn-mini-ctn">
             <HeaderMenu 
-                :name="name" 
-                :link="link"
+                :name="HeaderMenuDetail.name" 
+                :link="HeaderMenuDetail.link"
             >
             </HeaderMenu>
         </div>
