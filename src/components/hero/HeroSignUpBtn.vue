@@ -17,5 +17,6 @@
 #hero-sign-up-btn{
     background-color: orange;
     text-transform:capitalize;
+    padding: 1vh 2vh;
 }
 </style>
