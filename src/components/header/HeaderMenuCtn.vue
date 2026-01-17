@@ -7,7 +7,7 @@ console.log(HeaderMenuDetails.name)
 
 <template>
     <div class="header-menu-ctn-main-ctn">
-        <div v-for="HeaderMenuDetail in HeaderMenuDetails" :key="HeaderMenuDetail.id" class="header-menu-ctn-mini-ctn">
+        <div v-for="HeaderMenuDetail in HeaderMenuDetails"  class="header-menu-ctn-mini-ctn" :key="HeaderMenuDetail.id">
             <HeaderMenu 
                 :name="HeaderMenuDetail.name" 
                 :link="HeaderMenuDetail.link"
@@ -18,8 +18,10 @@ console.log(HeaderMenuDetails.name)
 </template>
 
 <style scoped>
-.header-menu-ctn-mini-ctn{
+.header-menu-ctn-main-ctn{
     display:flex;
     flex-direction: row;
+    gap: 1vw;
+    margin: auto 0;
 }
 </style>

@@ -13,3 +13,10 @@ const {name, link}=defineProps(["name", "link"]);
         </RouterLink>
     </div>
 </template>
+
+<style scoped>
+.header-menu-name{
+    text-transform: capitalize;
+    font-size: 1.6vh;
+}
+</style>
