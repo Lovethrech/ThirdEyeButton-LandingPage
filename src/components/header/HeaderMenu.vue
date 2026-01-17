@@ -36,7 +36,7 @@ const {name, link}=defineProps(["name", "link"]);
         margin: 2vh;
     }
     .header-menu-name{
-        font-size: 3vh;
+        font-size: 2.6vh;
     }
 }
 </style>

@@ -40,8 +40,11 @@
 
 @media screen and (max-width:990px) {
     #header-client-btn-main-ctn{
-        background-color: orange;
         margin:0;
+    }
+    #header-client-btn{
+        width: 80vw;
+        font-size:2vh;
     }
 }
 </style>
