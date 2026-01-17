@@ -19,6 +19,7 @@
     background-color: transparent;
     display: flex;
     justify-content: center;
+    margin-top: 2vh;
 }
 #hero-sign-up-btn{
     background-color: rgb(0, 0, 0);
@@ -28,5 +29,10 @@
     padding: 1vh 2vh;
     border: 0.2vh solid #000000;
     border-radius:20vh;
+}
+#hero-sign-up-btn:hover{
+    cursor: pointer;
+    transform:scalex(0.98);
+    transition: all .2s;
 }
 </style>

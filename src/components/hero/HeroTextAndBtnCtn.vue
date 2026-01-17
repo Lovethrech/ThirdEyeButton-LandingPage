@@ -11,7 +11,6 @@ import HeroSignUpBtn from "./HeroSignUpBtn.vue";
             id="hero-text-and-btn-ctn-mini-ctn"
         >
             <HeroTextCtn></HeroTextCtn>
-            <br/>
             <HeroSignUpBtn></HeroSignUpBtn>
         </div>
     </div>
