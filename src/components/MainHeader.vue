@@ -7,8 +7,9 @@ import HeaderMenuIcon from './header/HeaderMenuIcon.vue';
 const screenWidth=ref(window.innerWidth);
 
 onMounted(()=>{
-    const screenView= computed(()=>screenWidth);
-    console.log(screenView.value._value);
+    const screenWidthComputed= computed(()=>screenWidth);
+    const screenView=screenWidthComputed.value._value;
+    console.log(screenView);
 });
 
 
