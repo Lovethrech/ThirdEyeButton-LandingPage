@@ -2,10 +2,14 @@
     <div 
         id="header-logo-ctn"
     >
-        <img 
-            src="/src/assets/logo.svg" 
-            alt="ThirdEyeButton Logo"
-        />
+        <RouterLink 
+            to="/"
+        >
+            <img 
+                src="/src/assets/logo.svg" 
+                alt="ThirdEyeButton Logo"
+            /> 
+        </RouterLink>
     </div>
 </template>
 
