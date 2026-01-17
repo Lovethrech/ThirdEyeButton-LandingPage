@@ -11,7 +11,8 @@
 <style scoped>
 #hero-sign-up-btn-ctn{
     background-color: red;
-
+    display: flex;
+    justify-content: center;
 }
 #hero-sign-up-btn{
     background-color: orange;
