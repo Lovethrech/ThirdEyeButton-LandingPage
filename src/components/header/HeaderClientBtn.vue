@@ -1,7 +1,13 @@
 <template>
-    <div id="header-client-btn-main-ctn">
-        <a href="">
-            <button id="header-client-btn">
+    <div 
+        id="header-client-btn-main-ctn"
+    >
+        <a 
+            href=""
+        >
+            <button 
+                id="header-client-btn"
+            >
                 log in as client
             </button>
         </a>

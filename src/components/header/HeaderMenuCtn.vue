@@ -6,8 +6,13 @@ console.log(HeaderMenuDetails.name)
 </script>
 
 <template>
-    <div class="header-menu-ctn-main-ctn">
-        <div v-for="HeaderMenuDetail in HeaderMenuDetails"  class="header-menu-ctn-mini-ctn" :key="HeaderMenuDetail.id">
+    <div 
+        class="header-menu-ctn-main-ctn">
+        <div 
+            v-for="HeaderMenuDetail in HeaderMenuDetails"  
+            class="header-menu-ctn-mini-ctn" 
+            :key="HeaderMenuDetail.id"
+        >
             <HeaderMenu 
                 :name="HeaderMenuDetail.name" 
                 :link="HeaderMenuDetail.link"
