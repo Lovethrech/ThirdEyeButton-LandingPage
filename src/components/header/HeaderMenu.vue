@@ -1,7 +1,7 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const [name, link]=defineProps({"name", "link"});
+const {name, link}=defineProps(["name", "link"]);
 </script>
 
 <template>

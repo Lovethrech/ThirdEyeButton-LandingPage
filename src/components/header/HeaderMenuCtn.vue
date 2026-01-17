@@ -1,6 +1,8 @@
 <script setup>
-import HeaderMenuDetails from "../data/header-menu-details.json";
+import HeaderMenuDetails from "@/data/header-menu-details.json";
 import HeaderMenu from './HeaderMenu.vue';
+
+console.log(HeaderMenuDetails.name)
 </script>
 
 <template>
