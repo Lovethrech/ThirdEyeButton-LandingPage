@@ -29,6 +29,7 @@ import HeaderClientBtn from './HeaderClientBtn.vue';
         width: 100%;
         height: 90vh;
         background: linear-gradient(to bottom, #cae0ff, #ffffff);
+        display:none;
     }
 }
 </style>
