@@ -17,6 +17,6 @@ const {name, link}=defineProps(["name", "link"]);
 <style scoped>
 .header-menu-name{
     text-transform: capitalize;
-    font-size: 1.6vh;
+    font-size: 1.8vh;
 }
 </style>

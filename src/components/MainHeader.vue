@@ -1,12 +1,12 @@
 <script setup>
 import HeaderLogo from './header/HeaderLogo.vue';
-import HeaderMenuCtn from './header/HeaderMenuCtn.vue';
+import HeaderNavCtn from './header/HeaderNavCtn.vue';
 </script>
 
 <template>
     <header>
         <HeaderLogo></HeaderLogo>
-        <HeaderMenuCtn></HeaderMenuCtn>
+        <HeaderNavCtn></HeaderNavCtn>
     </header>
 </template>
 
