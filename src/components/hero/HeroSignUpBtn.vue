@@ -10,13 +10,16 @@
 
 <style scoped>
 #hero-sign-up-btn-ctn{
-    background-color: red;
+    background-color: transparent;
     display: flex;
     justify-content: center;
 }
 #hero-sign-up-btn{
-    background-color: orange;
+    background-color: rgb(0, 0, 0);
+    color:#ffffff;
     text-transform:capitalize;
     padding: 1vh 2vh;
+    border: 0.2vh solid #000000;
+    border-radius:20vh;
 }
 </style>
