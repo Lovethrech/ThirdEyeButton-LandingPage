@@ -6,6 +6,7 @@ import HeaderMenuIcon from './header/HeaderMenuIcon.vue';
 
 const screenWidth=ref(window.innerWidth);
 const displayMenu=ref("flex");
+const menuIcon=ref("<i class='ri-menu-4-line'></i>");
 
 onMounted(()=>{
     const screenWidthComputed= computed(()=>screenWidth);
@@ -25,7 +26,7 @@ onMounted(()=>{
     <header>
         <HeaderLogo></HeaderLogo>
         <HeaderNavCtn :style="{display: displayMenu}"></HeaderNavCtn>
-        <HeaderMenuIcon></HeaderMenuIcon>
+        <HeaderMenuIcon :menuIcon="menuIcon"></HeaderMenuIcon>
     </header>
 </template>
 
