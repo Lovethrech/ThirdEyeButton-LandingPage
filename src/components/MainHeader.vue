@@ -5,6 +5,7 @@ import HeaderNavCtn from './header/HeaderNavCtn.vue';
 import HeaderMenuIcon from './header/HeaderMenuIcon.vue';
 
 const screenWidth=ref(window.innerWidth);
+const screenHeight=ref(window.innerHeight);
 const displayMenu=ref("flex");
 const menuIcon=ref("<i class='ri-menu-4-line'></i>");
 const screenWidthComputed= computed(()=>screenWidth); 
@@ -12,6 +13,12 @@ const screenView=screenWidthComputed.value._value;
 
 if(screenView <= 990){
     displayMenu.value= "none";    
+}
+else if(screenHeight.value === 1366){
+    displayMenu.value= "none";    
+}
+else{
+    displayMenu.value="flex";
 }
 const showDropdown=()=>{
     if (menuIcon.value==="<i class='ri-menu-4-line'></i>"){
