@@ -1,9 +1,9 @@
 <template>
     <div class="hero-text-ctn">
-        <p id="hero-text-des">
+        <p id="hero-text-desc">
             Empower Your University Examination with ThirdEyeButton
         </p>
-        <h1 class="hero-text-title">
+        <h1 id="hero-text-title">
             Revolutionizing
             <br/>
             examination 
@@ -12,3 +12,16 @@
         </h1>
     </div>
 </template>
+
+<style scoped>
+.hero-text-ctn{
+    text-align: center;
+}
+#hero-text-desc{
+
+}
+#hero-text-title{
+    font-size: 10vh;
+    text-transform: capitalize;
+}
+</style>
