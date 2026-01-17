@@ -29,7 +29,7 @@ display: flex;
 justify-content: center;
 }
 #hero-text-and-btn-ctn-mini-ctn{
+    background-color: transparent;
     width: 50%;
-    height:40vh;
 }
 </style>
