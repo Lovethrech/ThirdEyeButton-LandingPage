@@ -30,4 +30,13 @@ const {name, link}=defineProps(["name", "link"]);
     transform: scale(1.1);
     transition: all .2s;
 }
+
+@media screen and (max-width:990px) {
+    .header-menu-ctn{
+        margin: 3vh;
+    }
+    .header-menu-name{
+        font-size: 4vh;
+    }
+}
 </style>
