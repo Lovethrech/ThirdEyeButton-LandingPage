@@ -36,7 +36,6 @@ console.log(HeaderMenuDetails.name)
         flex-direction: column;
         margin:0;
         width: 100%;
-        height: 100%;
         text-align:center
     }
 }
