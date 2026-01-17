@@ -13,5 +13,8 @@ import HeaderClientBtn from './HeaderClientBtn.vue';
 <style scoped>
 .header-nav-ctn{
     margin: auto 0;
+    display: flex;
+    flex-direction: row;
+    gap:2vw;
 }
 </style>
