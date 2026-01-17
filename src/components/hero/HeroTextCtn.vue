@@ -18,7 +18,7 @@
     text-align: center;
 }
 #hero-text-desc{
-
+    font-size: 1.4vh;
 }
 #hero-text-title{
     font-size: 10vh;
