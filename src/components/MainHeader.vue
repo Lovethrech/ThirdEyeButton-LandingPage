@@ -1,5 +1,5 @@
 <script setup>
-import {ref, onMounted} from 'vue';
+import {ref, onMounted, computed} from 'vue';
 import HeaderLogo from './header/HeaderLogo.vue';
 import HeaderNavCtn from './header/HeaderNavCtn.vue';
 import HeaderMenuIcon from './header/HeaderMenuIcon.vue';
@@ -7,10 +7,12 @@ import HeaderMenuIcon from './header/HeaderMenuIcon.vue';
 const screenWidth=ref(window.innerWidth);
 
 onMounted(()=>{
-    window.addEventListener('resize', ()=>{
-        screenWidth.value=window.innerHeight;
-    })
-})
+    const screenView= computed(()=>screenWidth);
+    console.log(screenView.value._value);
+});
+
+
+
 </script>
 
 <template>
