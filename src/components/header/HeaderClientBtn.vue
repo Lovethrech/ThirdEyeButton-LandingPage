@@ -13,7 +13,9 @@
     background-color: aqua;
 }
 #header-client-btn{
-    background-color: red;
+    background-color: #000000;
     color:#ffffff;
+    text-transform: capitalize;
+    padding:1vh 2vh;
 }
 </style>
