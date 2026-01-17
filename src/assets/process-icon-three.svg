@@ -1,0 +1,26 @@
+<svg
+  width="128"
+  height="128"
+  viewBox="0 0 128 128"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+>
+  <!-- Soft inner fill -->
+  <circle
+    cx="64"
+    cy="64"
+    r="34"
+    fill="currentColor"
+    opacity="0.15"
+  />
+
+  <!-- Open circular arc -->
+  <path
+    d="M40 32
+       A44 44 0 1 1 88 96"
+    stroke="currentColor"
+    stroke-width="6"
+    stroke-linecap="round"
+    fill="none"
+  />
+</svg>
