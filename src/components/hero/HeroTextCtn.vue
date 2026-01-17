@@ -30,4 +30,8 @@
     font-size: 10vh;
     text-transform: capitalize;
 }
+
+@media screen and (max-width:990px) {
+    
+}
 </style>
