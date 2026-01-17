@@ -22,6 +22,5 @@ console.log(HeaderMenuDetails.name)
     display:flex;
     flex-direction: row;
     gap: 1vw;
-    margin: auto 0;
 }
 </style>

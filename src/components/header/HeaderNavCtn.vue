@@ -7,3 +7,9 @@ import HeaderMenuCtn from './HeaderMenuCtn.vue';
         <HeaderMenuCtn></HeaderMenuCtn>
     </div>
 </template>
+
+<style scoped>
+.header-nav-ctn{
+    margin: auto 0;
+}
+</style>
