@@ -21,7 +21,7 @@ console.log(HeaderMenuDetails.name)
 .header-menu-ctn-main-ctn{
     display:flex;
     flex-direction: row;
-    gap: 1vw;
+    gap: 1.4vw;
     margin: auto 0;
 }
 </style>

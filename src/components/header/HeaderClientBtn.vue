@@ -11,8 +11,13 @@
 <style scoped>
 #header-client-btn-main-ctn{
     background-color: transparent;
+    margin: auto 0;
+    display:flex;
+    justify-content: center;
+    place-items: center;
 }
 #header-client-btn{
+    font-size: 1.6vh;
     background-color: #000000;
     color:#ffffff;
     text-transform: capitalize;
