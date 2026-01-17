@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <style>
+    .blink {
+      animation: blink 4s infinite;
+      transform-origin: center;
+    }
+
+    @keyframes blink {
+      0%, 96%, 100% { transform: scaleY(1); }
+      97%, 99% { transform: scaleY(0.1); }
+    }
+  </style>
+
+  <!-- Eye -->
+  <g class="blink">
+    <path
+      d="M80 150 Q300 40 520 150 Q300 260 80 150 Z"
+      fill="#0F4C75"
+    />
+    <ellipse cx="300" cy="150" rx="110" ry="70" fill="#FFFFFF"/>
+    <circle cx="300" cy="150" r="45" fill="#1B9ED8"/>
+    <circle cx="300" cy="150" r="15" fill="#000000"/>
+  </g>
+
+  <!-- Text -->
+  <text
+    x="300"
+    y="290"
+    text-anchor="middle"
+    font-size="40"
+    font-family="Inter, Arial"
+    font-weight="700"
+    fill="#111"
+  >
+    ThirdEyeButton
+  </text>
+</svg>
