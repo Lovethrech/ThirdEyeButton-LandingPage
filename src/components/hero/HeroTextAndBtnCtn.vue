@@ -15,6 +15,7 @@ import HeroTextCtn from "./HeroTextCtn.vue";
     background: url("/public/hero-top-left.png") top left/auto 16vh no-repeat,
     url("/public/hero-top-right.png") top right/30vh no-repeat,
     url("/public/hero-bottom-right.png") bottom right 24vh/24vh no-repeat;
+    margin-top:4vh;
     height: 70vh;
     display: flex;
     justify-content: center;
