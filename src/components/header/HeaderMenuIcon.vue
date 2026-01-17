@@ -12,7 +12,7 @@
 
 <style scoped>
 .header-menu-icon{
-    font-size: 5vh;
+    font-size: 4vh;
     display: flex;
     place-items: center;
     display: none;
