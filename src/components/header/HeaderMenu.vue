@@ -24,6 +24,7 @@ const {name, link}=defineProps(["name", "link"]);
 .header-menu-name{
     text-transform: capitalize;
     font-size: 1.6vh;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .header-menu-name:hover{
     cursor: pointer;

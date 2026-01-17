@@ -25,6 +25,7 @@
     background-color: rgb(0, 0, 0);
     color:#ffffff;
     font-size: 1.6vh;
+    font-family: "Roboto Condensed", sans-serif;
     text-transform:capitalize;
     padding: 1vh 2vh;
     border: 0.2vh solid #000000;

@@ -25,11 +25,14 @@
 }
 #hero-text-desc{
     font-size: 1.4vh;
+    font-family: "Cormorant Unicase", serif;
     font-weight: 500;
     letter-spacing:1vh;
 }
 #hero-text-title{
     font-size: 10vh;
+    font-family: "Old Standard TT", serif;
+    font-optical-sizing: auto;
     font-weight: 600;
     text-transform: capitalize;
 }
