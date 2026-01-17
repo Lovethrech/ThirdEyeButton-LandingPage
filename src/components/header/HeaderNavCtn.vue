@@ -25,9 +25,10 @@ import HeaderClientBtn from './HeaderClientBtn.vue';
         top: 7.8vh;
         right:0;
         flex-direction: column;
+        gap: 4vh;
         width: 100%;
         height: 90vh;
-        background: linear-gradient(to bottom, #cae0ff, #ffffff);
+        background-color: indigo;;
     }
 }
 </style>
