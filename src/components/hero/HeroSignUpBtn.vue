@@ -15,5 +15,6 @@
 }
 #hero-sign-up-btn{
     background-color: orange;
+    text-transform:capitalize;
 }
 </style>
