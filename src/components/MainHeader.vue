@@ -5,10 +5,15 @@ import HeaderNavCtn from './header/HeaderNavCtn.vue';
 import HeaderMenuIcon from './header/HeaderMenuIcon.vue';
 
 const screenWidth=ref(window.innerWidth);
+const displayMenu=ref("flex");
 
 onMounted(()=>{
     const screenWidthComputed= computed(()=>screenWidth);
     const screenView=screenWidthComputed.value._value;
+
+    if(screenView <= 990){
+        displayMenu.value= "none";
+    }
     console.log(screenView);
 });
 
@@ -19,7 +24,7 @@ onMounted(()=>{
 <template>
     <header>
         <HeaderLogo></HeaderLogo>
-        <HeaderNavCtn></HeaderNavCtn>
+        <HeaderNavCtn :style="{display: displayMenu}"></HeaderNavCtn>
         <HeaderMenuIcon></HeaderMenuIcon>
     </header>
 </template>
