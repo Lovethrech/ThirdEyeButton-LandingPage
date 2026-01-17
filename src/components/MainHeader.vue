@@ -14,5 +14,8 @@ import HeaderMenuCtn from './header/HeaderMenuCtn.vue';
 header{
     background-color: #cae0ff;
     padding: 1vh 4vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 </style>
