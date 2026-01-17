@@ -10,8 +10,6 @@ const {menuIcon}=defineProps(["menuIcon"]);
         v-html="menuIcon"
     >
     </div>
-    <!-- <i class="ri-menu-4-line"></i> -->
-        <!-- <i class="ri-close-large-line"></i> -->
 </template>
 
 <style scoped>

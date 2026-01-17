@@ -23,15 +23,20 @@ const showDropdown=()=>{
         displayMenu.value="none";
     }
 }
-
-
 </script>
 
 <template>
     <header>
         <HeaderLogo></HeaderLogo>
-        <HeaderNavCtn :style="{display: displayMenu}"></HeaderNavCtn>
-        <HeaderMenuIcon :menuIcon="menuIcon" :onClick="showDropdown"></HeaderMenuIcon>
+        <HeaderNavCtn 
+            :style="{display: displayMenu}"
+        >
+        </HeaderNavCtn>
+        <HeaderMenuIcon 
+            :menuIcon="menuIcon" 
+            :onClick="showDropdown"
+        >
+        </HeaderMenuIcon>
     </header>
 </template>
 
