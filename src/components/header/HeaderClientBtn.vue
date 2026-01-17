@@ -17,10 +17,13 @@
     color:#ffffff;
     text-transform: capitalize;
     padding:1vh 2vh;
+    border: 0;
 }
 #header-client-btn:hover{
     cursor: pointer;
     background-color: transparent;
     color: #000000;
+    border: 0.2vh solid #000000;
+    transition: all .5s;
 }
 </style>
