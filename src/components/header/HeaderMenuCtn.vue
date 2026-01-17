@@ -29,4 +29,14 @@ console.log(HeaderMenuDetails.name)
     gap: 1.4vw;
     margin: auto 0;
 }
+
+@media screen and (max-width:990px) {
+    .header-menu-ctn-main-ctn{
+        background-color: red;
+        flex-direction: column;
+        margin:0;
+        width: 100%;
+        text-align:center
+    }
+}
 </style>

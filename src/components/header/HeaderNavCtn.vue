@@ -24,6 +24,7 @@ import HeaderClientBtn from './HeaderClientBtn.vue';
         position: absolute;
         top: 7.8vh;
         right:0;
+        flex-direction: column;
         width: 100%;
         height: 90vh;
         background: linear-gradient(to bottom, #cae0ff, #ffffff);
