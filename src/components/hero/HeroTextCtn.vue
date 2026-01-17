@@ -31,7 +31,16 @@
     text-transform: capitalize;
 }
 
-@media screen and (max-width:990px) {
+@media screen and (max-width:345px) {
+    #hero-text-desc{
+        font-size: 3vw;
+    }
+    #hero-text-title{
+        font-size: 10vw;
+    }
+}
+
+@media screen and (max-width:990px) and (min-width:346px){
     #hero-text-desc{
         font-size: 1.4vh;
     }

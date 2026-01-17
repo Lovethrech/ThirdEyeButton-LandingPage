@@ -33,7 +33,17 @@ justify-content: center;
     width: 50%;
 }
 
-@media screen and (max-width:990px) {
+@media screen and (max-width:320px) {
+    #hero-text-and-btn-ctn{
+        background: url("/public/hero-bottom-right.png") bottom 20vw center/70vw no-repeat;
+        margin-top:16vw;
+    }
+    #hero-text-and-btn-ctn-mini-ctn{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:990px)  and (min-width:321px){
     #hero-text-and-btn-ctn{
         background: url("/public/hero-bottom-right.png") bottom center/34vh no-repeat;
         margin-top:6vh;
