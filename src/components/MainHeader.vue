@@ -11,5 +11,6 @@ import HeaderLogo from './header/HeaderLogo.vue';
 <style scoped>
 header{
     background-color: #cae0ff;
+    padding: 1vh 4vw;
 }
 </style>

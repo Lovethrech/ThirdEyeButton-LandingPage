@@ -6,7 +6,7 @@
 
 <style scoped>
 #header-logo-ctn{
-    width:3vh;
+    width:12vh;
 }
 #header-logo-ctn img{
     width: 100%;
