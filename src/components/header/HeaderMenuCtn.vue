@@ -16,3 +16,10 @@ console.log(HeaderMenuDetails.name)
         </div>
     </div>
 </template>
+
+<style scoped>
+.header-menu-ctn-mini-ctn{
+    display:flex;
+    flex-direction: row;
+}
+</style>
