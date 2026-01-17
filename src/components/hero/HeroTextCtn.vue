@@ -32,6 +32,11 @@
 }
 
 @media screen and (max-width:990px) {
-    
+    #hero-text-desc{
+        font-size: 1.4vh;
+    }
+    #hero-text-title{
+        font-size: 6vh;
+    }
 }
 </style>
