@@ -44,4 +44,13 @@ import AboutExploreBtn from './AboutExploreBtn.vue';
     font-size:2vh;
     font-family: "Roboto Condensed", sans-serif;
 }
+
+@media screen and (max-width:990px) and (min-width:346px){
+    #about-desc-ctn{
+        background: url("/public/about-top-left.png") top right/20vh no-repeat;
+    }
+    #about-desc-ctn-mini-ctn{
+        width: 100%;
+    }
+}
 </style>
