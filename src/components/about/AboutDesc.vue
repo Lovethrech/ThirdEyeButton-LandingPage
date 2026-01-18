@@ -28,6 +28,6 @@
     justify-content: right;
 }
 #about-desc-ctn-mini-ctn{
-    width:50%;
+    width:40%;
 }
 </style>
