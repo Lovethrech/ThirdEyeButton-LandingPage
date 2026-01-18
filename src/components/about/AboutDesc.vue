@@ -18,3 +18,15 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+#about-desc-ctn{
+    background-color: blue;
+    display: flex;
+    justify-content: right;
+}
+#about-desc-ctn-mini-ctn{
+    background-color: indigo;
+    width:50%;
+}
+</style>

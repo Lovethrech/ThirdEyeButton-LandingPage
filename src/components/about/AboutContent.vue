@@ -20,9 +20,10 @@ import AboutDesc from './AboutDesc.vue';
 }
 #about-content-mini-ctn{
     background-color: orange;
-    height: 70%;
+    height: 70vh;
+    padding: 3vh 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap:6vh;
 }
 </style>
