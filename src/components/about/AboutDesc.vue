@@ -32,10 +32,11 @@
     width:40%;
 }
 #about-desc-name-title{
-    font-size: 1.8vh;
+    font-size: 1.6vh;
     font-family: "Cormorant Unicase", serif;
 }#about-desc{
     line-height: 3vh;
+    font-size:2vh;
     font-family: "Roboto Condensed", sans-serif;
 }
 </style>
