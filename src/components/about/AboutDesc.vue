@@ -19,6 +19,7 @@ import AboutExploreBtn from './AboutExploreBtn.vue';
                 streamline the exam scheduling experience for
                 educational institutions
             </p>
+            <br/>
             <AboutExploreBtn></AboutExploreBtn>
         </div>
     </div>
@@ -27,8 +28,8 @@ import AboutExploreBtn from './AboutExploreBtn.vue';
 <style scoped>
 #about-desc-ctn{
     min-height: 50vh;
-    background: url("/public/about-top-left.png") top left/36vh  no-repeat,
-    url("/public/about-bottom-right.png") bottom right/ 40vh no-repeat;
+    background: url("/public/about-top-left.png") top left/26vh  no-repeat,
+    url("/public/about-bottom-right.png") bottom right/ 34vh no-repeat;
     display: flex;
     justify-content: right;
 }
@@ -39,7 +40,7 @@ import AboutExploreBtn from './AboutExploreBtn.vue';
     font-size: 1.6vh;
     font-family: "Cormorant Unicase", serif;
 }#about-desc{
-    line-height: 3vh;
+    line-height: 4vh;
     font-size:2vh;
     font-family: "Roboto Condensed", sans-serif;
 }
