@@ -49,7 +49,6 @@ const showDropdown=()=>{
 
 <style scoped>
 header{
-    position:sticky;
     background-color: #cae0ff;
     padding: 0.4vh 4vw;
     display:flex;
