@@ -39,7 +39,8 @@ import AboutExploreBtn from './AboutExploreBtn.vue';
 #about-desc-name-title{
     font-size: 1.6vh;
     font-family: "Cormorant Unicase", serif;
-}#about-desc{
+}
+#about-desc{
     line-height: 4vh;
     font-size:2vh;
     font-family: "Roboto Condensed", sans-serif;
@@ -52,6 +53,9 @@ import AboutExploreBtn from './AboutExploreBtn.vue';
     }
     #about-desc-ctn-mini-ctn{
         width: 100%;
+    }
+    #about-desc{
+        text-align:justify;
     }
 }
 </style>

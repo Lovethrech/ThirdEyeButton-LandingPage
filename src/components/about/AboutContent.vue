@@ -26,8 +26,14 @@ import AboutDesc from './AboutDesc.vue';
     gap:6vh;
 }
 @media screen and (max-width:990px) and (min-width:346px){
+    .about-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     #about-content-mini-ctn{
         gap:0;
+        padding:0;
     }
 }
 </style>

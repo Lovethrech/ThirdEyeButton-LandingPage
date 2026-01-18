@@ -26,4 +26,10 @@
     color: #282533;
     transition: all .2s;
 }
+
+@media screen and (max-width:990px) and (min-width:346px){
+    #about-explore-btn{
+        width: 100%;
+    }
+}
 </style>
