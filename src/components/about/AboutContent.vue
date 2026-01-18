@@ -21,5 +21,8 @@ import AboutDesc from './AboutDesc.vue';
 #about-content-mini-ctn{
     background-color: orange;
     height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 </style>
