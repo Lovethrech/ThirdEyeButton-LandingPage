@@ -3,11 +3,11 @@ import HeroTextAndBtnCtn from './HeroTextAndBtnCtn.vue';
 </script>
 
 <template>
-    <div 
+    <section 
         class="main-hero">
     
         <HeroTextAndBtnCtn></HeroTextAndBtnCtn>
-    </div>
+    </section>
 </template>
 
 <style scoped>
