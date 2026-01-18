@@ -22,12 +22,12 @@
 <style scoped>
 #about-desc-ctn{
     min-height: 50vh;
-    background: url("/public/about-top-left.png") top left/36vh  no-repeat;
+    background: url("/public/about-top-left.png") top left/36vh  no-repeat,
+    url("/public/about-bottom-right.png") bottom right/ 40vh no-repeat;
     display: flex;
     justify-content: right;
 }
 #about-desc-ctn-mini-ctn{
-    background-color: indigo;
     width:50%;
 }
 </style>
