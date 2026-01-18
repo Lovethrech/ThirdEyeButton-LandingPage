@@ -25,4 +25,9 @@ import AboutDesc from './AboutDesc.vue';
     flex-direction: column;
     gap:6vh;
 }
+@media screen and (max-width:990px) and (min-width:346px){
+    #about-content-mini-ctn{
+        gap:0;
+    }
+}
 </style>

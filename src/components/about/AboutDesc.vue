@@ -47,7 +47,8 @@ import AboutExploreBtn from './AboutExploreBtn.vue';
 
 @media screen and (max-width:990px) and (min-width:346px){
     #about-desc-ctn{
-        background: url("/public/about-top-left.png") top right/20vh no-repeat;
+        background: url("/public/about-top-left.png") top right/26vh no-repeat;
+        padding-top:20vh;
     }
     #about-desc-ctn-mini-ctn{
         width: 100%;
