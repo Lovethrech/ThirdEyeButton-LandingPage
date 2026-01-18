@@ -15,4 +15,15 @@
     font-optical-sizing: auto;
     font-weight: 600;
 }
+
+@media screen and (max-width:345px) {
+    #about-title-name{
+        font-size: 8vw;
+    }
+}
+@media screen and (max-width:990px) and (min-width:346px){
+    #about-title-name{
+        font-size: 4vh;
+    }
+}
 </style>
