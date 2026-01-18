@@ -11,5 +11,8 @@
 <style scoped>
 #about-title-name{
     font-size:5vh;
+    font-family: "Old Standard TT", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
 }
 </style>

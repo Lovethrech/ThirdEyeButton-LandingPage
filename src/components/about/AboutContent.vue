@@ -19,8 +19,7 @@ import AboutDesc from './AboutDesc.vue';
     padding: 6vh 4vw;
 }
 #about-content-mini-ctn{
-    background-color: orange;
-    height: 70vh;
+    min-height: 70vh;
     padding: 3vh 0;
     display: flex;
     flex-direction: column;
