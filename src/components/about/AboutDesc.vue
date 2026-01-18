@@ -1,3 +1,7 @@
+<script setup>
+import AboutExploreBtn from './AboutExploreBtn.vue';
+</script>
+
 <template>
     <div id="about-desc-ctn">
         <div id="about-desc-ctn-mini-ctn">
@@ -15,7 +19,7 @@
                 streamline the exam scheduling experience for
                 educational institutions
             </p>
-            <!-- explore features btn  -->
+            <AboutExploreBtn></AboutExploreBtn>
         </div>
     </div>
 </template>
