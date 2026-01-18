@@ -1,7 +1,7 @@
 <template>
     <div id="about-title-ctn">
-        <p class="about-title-name">
-            
-        </p>
+        <h2 class="about-title-name">
+
+        </h2>
     </div>
 </template>
