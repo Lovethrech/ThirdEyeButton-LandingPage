@@ -21,7 +21,8 @@
 
 <style scoped>
 #about-desc-ctn{
-    background-color: blue;
+    min-height: 50vh;
+    background: url("/public/about-top-left.png") top left/36vh  no-repeat;
     display: flex;
     justify-content: right;
 }
