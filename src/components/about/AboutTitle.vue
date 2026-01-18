@@ -10,7 +10,7 @@
 
 <style scoped>
 #about-title-name{
-    font-size:5vh;
+    font-size:8vh;
     font-family: "Old Standard TT", serif;
     font-optical-sizing: auto;
     font-weight: 600;

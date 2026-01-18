@@ -20,7 +20,7 @@ import AboutDesc from './AboutDesc.vue';
 }
 #about-content-mini-ctn{
     min-height: 70vh;
-    padding: 3vh 0;
+    padding: 1vh 0 3vh;
     display: flex;
     flex-direction: column;
     gap:6vh;
