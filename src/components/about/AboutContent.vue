@@ -9,3 +9,11 @@ import AboutDesc from './AboutDesc.vue';
         <AboutDesc></AboutDesc>
     </section>
 </template>
+
+<style scoped>
+.about-content{
+    width: 100%;
+    min-height: 100vh;
+    padding: 2vh 4vw;
+}
+</style>
