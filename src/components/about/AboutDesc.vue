@@ -30,4 +30,8 @@
 #about-desc-ctn-mini-ctn{
     width:40%;
 }
+#about-desc-name-title{
+    font-size: 1.8vh;
+    font-family: "Cormorant Unicase", serif;
+}
 </style>
