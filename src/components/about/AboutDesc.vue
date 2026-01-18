@@ -4,6 +4,7 @@
             <h4 id="about-desc-name-title">
                 Our Mission
             </h4>
+            <br/>
             <p id="about-desc">
                 ThirdEyeButton is an IT solution company that provides a
                 default website interface for registered university clients.
@@ -33,5 +34,8 @@
 #about-desc-name-title{
     font-size: 1.8vh;
     font-family: "Cormorant Unicase", serif;
+}#about-desc{
+    line-height: 3vh;
+    font-family: "Roboto Condensed", sans-serif;
 }
 </style>
