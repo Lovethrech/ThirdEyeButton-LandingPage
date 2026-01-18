@@ -5,15 +5,21 @@ import AboutDesc from './AboutDesc.vue';
 
 <template>
     <section class="about-content">
-        <AboutTitle></AboutTitle>
-        <AboutDesc></AboutDesc>
+        <div id="about-content-mini-ctn">
+            <AboutTitle></AboutTitle>
+            <AboutDesc></AboutDesc>
+        </div>
     </section>
 </template>
 
 <style scoped>
-.about-content{
+.about-content{    
     width: 100%;
     min-height: 100vh;
-    padding: 2vh 4vw;
+    padding: 6vh 4vw;
+}
+#about-content-mini-ctn{
+    background-color: orange;
+    height: 70%;
 }
 </style>
