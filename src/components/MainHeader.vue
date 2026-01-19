@@ -1,8 +1,8 @@
 <script setup>
 import {ref, computed} from 'vue';
-import HeaderLogo from './header/HeaderLogo.vue';
-import HeaderNavCtn from './header/HeaderNavCtn.vue';
-import HeaderMenuIcon from './header/HeaderMenuIcon.vue';
+import HeaderLogo from './home/header/HeaderLogo.vue'
+import HeaderNavCtn from './home/header/HeaderNavCtn.vue';
+import HeaderMenuIcon from './home/header/HeaderMenuIcon.vue';
 
 const screenWidth=ref(window.innerWidth);
 const screenHeight=ref(window.innerHeight);
