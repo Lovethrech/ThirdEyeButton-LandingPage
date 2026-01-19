@@ -23,6 +23,9 @@
 <style scoped>
 #process-title-name{
     font-size: 6vh;
+    font-family: "Old Standard TT", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 #process-title-tag{
     margin: 6vh 0 2vh;
