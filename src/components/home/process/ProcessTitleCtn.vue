@@ -34,6 +34,6 @@
     letter-spacing: 0.3vh;
 }
 #process-title-desc{
-    
+    line-height: 4vh;
 }
 </style>
