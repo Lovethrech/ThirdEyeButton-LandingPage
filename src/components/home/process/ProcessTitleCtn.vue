@@ -41,5 +41,6 @@
     font-size: 2vh;
     font-family: "Roboto Condensed", sans-serif;
     line-height: 4vh;
+    margin-bottom: 3vh;
 }
 </style>
