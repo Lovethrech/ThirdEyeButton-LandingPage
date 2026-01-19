@@ -23,5 +23,6 @@
 <style scoped>
 #process-title-name{
     font-size: 6vh;
+    margin-bottom: 3vh;
 }
 </style>
