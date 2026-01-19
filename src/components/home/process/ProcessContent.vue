@@ -15,5 +15,6 @@ import ProcessTitleCtn from '@/components/home/process/ProcessTitleCtn.vue';
     background: linear-gradient(to bottom, #ffffff, #cae0ff);
     width: 100%;
     min-height: 100vh;
+    padding: 2vh 4vw;
 }
 </style>
