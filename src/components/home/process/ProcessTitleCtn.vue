@@ -45,6 +45,9 @@
 }
 
 @media screen and (max-width:990px) and (min-width:346px){
-    
+    #process-title-name{
+        background-color: red;;
+        text-align: center;
+    }
 }
 </style>
