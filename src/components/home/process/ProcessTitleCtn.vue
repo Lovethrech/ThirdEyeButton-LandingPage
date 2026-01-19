@@ -43,4 +43,8 @@
     line-height: 4vh;
     margin-bottom: 3vh;
 }
+
+@media screen and (max-width:990px) and (min-width:346px){
+    
+}
 </style>
