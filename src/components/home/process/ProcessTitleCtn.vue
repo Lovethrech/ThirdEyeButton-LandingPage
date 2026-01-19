@@ -30,10 +30,12 @@
 #process-title-tag{
     margin: 6vh 0 2vh;
     font-family: "Cormorant Unicase", serif;
-    font-size: 2vh;
+    font-size: 1.6vh;
     letter-spacing: 0.3vh;
 }
 #process-title-desc{
+    font-size: 2vh;
+    font-family: "Roboto Condensed", sans-serif;
     line-height: 4vh;
 }
 </style>
