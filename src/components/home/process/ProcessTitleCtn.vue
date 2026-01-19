@@ -5,7 +5,7 @@
                 How It Works
             </h3>
             <p id="process-title-tag">
-                Seamless Exam Schedulin
+                Seamless Exam Scheduling
             </p>
             <p id="process-title-desc">
                 Our process involves advanced scheduling algorithms, automated conflict resolution,
@@ -29,6 +29,11 @@
 }
 #process-title-tag{
     margin: 6vh 0 2vh;
+    font-family: "Cormorant Unicase", serif;
     font-size: 2vh;
+    letter-spacing: 0.3vh;
+}
+#process-title-desc{
+    
 }
 </style>
