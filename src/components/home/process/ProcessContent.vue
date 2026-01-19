@@ -9,3 +9,11 @@ import ProcessTitleCtn from '@/components/home/process/ProcessTitleCtn.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+.process-content{
+    background: linear-gradient(to bottom, #ffffff, #cae0ff);
+    width: 100%;
+    min-height: 100vh;
+}
+</style>
