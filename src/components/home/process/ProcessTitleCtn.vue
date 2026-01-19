@@ -21,6 +21,10 @@
 </template>
 
 <style scoped>
+.process-title-ctn{
+    width: 100%;
+    border-bottom: 0.1vh solid #000000;
+}
 #process-title-name{
     font-size: 6vh;
     font-family: "Old Standard TT", serif;
