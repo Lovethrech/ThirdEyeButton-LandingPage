@@ -21,5 +21,7 @@
 </template>
 
 <style scoped>
-
+#process-title-name{
+    font-size: 6vh;
+}
 </style>
