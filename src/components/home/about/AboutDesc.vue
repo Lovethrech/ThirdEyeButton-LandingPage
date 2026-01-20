@@ -8,7 +8,6 @@ import AboutExploreBtn from './AboutExploreBtn.vue';
             <h4 id="about-desc-name-title">
                 Our Mission
             </h4>
-            <br/>
             <p id="about-desc">
                 ThirdEyeButton is an IT solution company that provides a
                 default website interface for registered university clients.
@@ -19,7 +18,6 @@ import AboutExploreBtn from './AboutExploreBtn.vue';
                 streamline the exam scheduling experience for
                 educational institutions
             </p>
-            <br/>
             <AboutExploreBtn></AboutExploreBtn>
         </div>
     </div>
@@ -44,6 +42,7 @@ import AboutExploreBtn from './AboutExploreBtn.vue';
     line-height: 4vh;
     font-size:2vh;
     font-family: "Roboto Condensed", sans-serif;
+    margin: 2vh 0;
 }
 
 @media screen and (max-width:990px) {
