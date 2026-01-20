@@ -15,7 +15,7 @@ import ProcessFeature from './ProcessFeature.vue';
 <style scoped>
 .process-feature-ctn{
     display:flex;
-
+    justify-content: right;
 }
 #process-feature-main-ctn{
     width:40%;
