@@ -1,6 +1,10 @@
 <template>
-    <div id="about-title-ctn">
-        <h2 id="about-title-name">
+    <div 
+        id="about-title-ctn"
+    >
+        <h2 
+            id="about-title-name"
+        >
             About
             <br/>
             ThirdEyeButton
