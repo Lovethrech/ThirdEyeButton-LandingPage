@@ -5,14 +5,22 @@ const {subTitle, title, desc}=defineProps(['subTitle', "title", "desc"]);
 </script>
 
 <template>
-    <div class="process-feature">
-        <p class="process-feature-sub-title">
+    <div 
+        class="process-feature"
+    >
+        <p 
+            class="process-feature-sub-title"
+        >
             {{subTitle}}
         </p>
-        <p class="process-feature-title">
+        <p 
+            class="process-feature-title"
+        >
             {{title}}
         </p>
-        <p class="process-feature-desc">
+        <p 
+            class="process-feature-desc"
+        >
             {{ desc }}
         </p>
     </div>
