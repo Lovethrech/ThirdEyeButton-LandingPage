@@ -7,9 +7,7 @@
             Registered Users
         </p>
         <p class="process-feature-desc">
-            We provide secure access for registered university staff and students, ensuring data privacy and
-            confidentiality. Our system offers role-based permissions to control access and maintain the
-            integrity of exam scheduling information.
+            We provide secure access for registered university staff and students, ensuring data privacy and confidentiality. Our system offers role-based permissions to control access and maintain the integrity of exam scheduling information.
         </p>
     </div>
 </template>
