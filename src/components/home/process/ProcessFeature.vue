@@ -26,6 +26,7 @@
 .process-feature-desc{
     font-size:2vh;
     font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
     line-height: 4vh;
 }
 </style>
