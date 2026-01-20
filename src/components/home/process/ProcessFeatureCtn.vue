@@ -1,4 +1,5 @@
 <script setup>
+import processFeatureDetails from "@/data/process-feature-details.json";
 import ProcessFeature from './ProcessFeature.vue';
 import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
 </script>
