@@ -21,9 +21,11 @@
 .process-feature-title{
     font-size: 2.6vh;
     font-family: "Old Standard TT", serif;
+    margin: 2vh 0;
 }
 .process-feature-desc{
     font-size:2vh;
     font-family: "Roboto Condensed", sans-serif;
+    line-height: 4vh;
 }
 </style>
