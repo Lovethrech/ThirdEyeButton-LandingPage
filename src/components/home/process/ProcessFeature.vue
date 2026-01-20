@@ -1,13 +1,19 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const {subTitle, title, desc}=defineProps(['subTitle', "title", "desc"]);
+</script>
+
 <template>
     <div class="process-feature">
         <p class="process-feature-sub-title">
-            User Access
+            {{subTitle}}
         </p>
         <p class="process-feature-title">
-            Registered Users
+            {{title}}
         </p>
         <p class="process-feature-desc">
-            We provide secure access for registered university staff and students, ensuring data privacy and confidentiality. Our system offers role-based permissions to control access and maintain the integrity of exam scheduling information.
+            {{ desc }}
         </p>
     </div>
 </template>
