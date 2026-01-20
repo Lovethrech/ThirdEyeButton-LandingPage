@@ -16,12 +16,14 @@
 
 <style scoped>
 .process-feature-sub-title{
-
+    font-family: "Cormorant Unicase", serif;
 }
 .process-feature-title{
-
+    font-size: 2.6vh;
+    font-family: "Old Standard TT", serif;
 }
 .process-feature-desc{
-
+    font-size:2vh;
+    font-family: "Roboto Condensed", sans-serif;
 }
 </style>
