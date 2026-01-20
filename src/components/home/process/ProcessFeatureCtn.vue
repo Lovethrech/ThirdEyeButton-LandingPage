@@ -8,9 +8,6 @@ import ProcessFeature from './ProcessFeature.vue';
             <div id="process-feature-mini-ctn">
                 <ProcessFeature></ProcessFeature>
             </div>
-            <div id="process-feature-mini-ctn">
-                <ProcessFeature></ProcessFeature>
-            </div>
         </div>
     </div>
 </template>
