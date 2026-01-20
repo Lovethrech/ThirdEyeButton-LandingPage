@@ -19,4 +19,10 @@ import ProcessFeatureCtn from './ProcessFeatureCtn.vue';
     min-height: 100vh;
     padding: 5vh 4vw;
 }
+
+@media screen and (max-width:990px) {
+    .process-content{
+        padding:8vh 4vw;
+    }
+}
 </style>
