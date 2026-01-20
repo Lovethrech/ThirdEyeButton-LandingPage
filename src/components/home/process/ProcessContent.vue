@@ -4,8 +4,12 @@ import ProcessFeatureCtn from './ProcessFeatureCtn.vue';
 </script>
 
 <template>
-    <div class="process-content">
-        <div class="process-content-mini-ctn">
+    <div 
+        class="process-content"
+    >
+        <div 
+            class="process-content-mini-ctn"
+        >
             <ProcessTitleCtn></ProcessTitleCtn>
             <ProcessFeatureCtn></ProcessFeatureCtn>
         </div>
