@@ -20,7 +20,7 @@ import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
     justify-content: right;
 }
 #process-feature-main-ctn{
-    width:40%;    
+    width:44%;    
     display: flex;
     flex-direction: column;
     gap:3vh;    
