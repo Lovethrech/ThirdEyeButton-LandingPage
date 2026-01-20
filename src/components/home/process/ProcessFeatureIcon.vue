@@ -1,6 +1,12 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const {imgSrc, imgAlt}=defineProps(['imgSrc', 'imgAlt']);
+</script>
+
 <template>
     <div class="process-feature-icon-ctn">
-        <img src="/public/process-icon-one.svg" alt="Registered user Icon">
+        <img :src="{imgSrc}" :alt="{imgAlt}">
     </div>
 </template>
 
