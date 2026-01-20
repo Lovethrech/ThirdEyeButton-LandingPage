@@ -3,12 +3,20 @@ import AboutExploreBtn from './AboutExploreBtn.vue';
 </script>
 
 <template>
-    <div id="about-desc-ctn">
-        <div id="about-desc-ctn-mini-ctn">
-            <h4 id="about-desc-name-title">
+    <div 
+        id="about-desc-ctn"
+    >
+        <div 
+            id="about-desc-ctn-mini-ctn"
+        >
+            <h4 
+                id="about-desc-name-title"
+            >
                 Our Mission
             </h4>
-            <p id="about-desc">
+            <p 
+                id="about-desc"
+            >
                 ThirdEyeButton is an IT solution company that provides a
                 default website interface for registered university clients.
                 Our system offers sophisticated exam scheduling and
