@@ -3,7 +3,7 @@ import processFeatureDetails from "@/data/process-feature-details.json";
 import ProcessFeature from './ProcessFeature.vue';
 import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
 
-console.log(processFeatureDetails(0));
+console.log(processFeatureDetails[0].imgSrc);
 </script>
 
 <template>
