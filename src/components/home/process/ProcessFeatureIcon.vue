@@ -13,5 +13,9 @@ const {imgSrc, imgAlt}=defineProps(['imgSrc', 'imgAlt']);
 <style scoped>
 .process-feature-icon-ctn{
     margin: auto 0;
+    width:20vh;
+}
+.process-feature-icon-ctn img{
+    width: 100%;
 }
 </style>
