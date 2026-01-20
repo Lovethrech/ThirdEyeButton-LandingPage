@@ -21,7 +21,6 @@ const {imgSrc, imgAlt}=defineProps(['imgSrc', 'imgAlt']);
 
 @media screen and (max-width:990px) {
     .process-feature-icon-ctn{
-        background-color: bisque;
         margin: 0 auto;
         width:10vh;
     }
