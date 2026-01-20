@@ -1,11 +1,13 @@
 <script setup>
 import ProcessTitleCtn from '@/components/home/process/ProcessTitleCtn.vue';
+import ProcessFeatureCtn from './ProcessFeatureCtn.vue';
 </script>
 
 <template>
     <div class="process-content">
         <div class="process-content-mini-ctn">
             <ProcessTitleCtn></ProcessTitleCtn>
+            <ProcessFeatureCtn></ProcessFeatureCtn>
         </div>
     </div>
 </template>
