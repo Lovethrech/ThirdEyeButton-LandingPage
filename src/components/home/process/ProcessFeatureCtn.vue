@@ -48,7 +48,10 @@ import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
 
 @media screen and (max-width:990px) {
     #process-feature-main-ctn{
-        width:100%;
+        width:100%;        
+    }
+    #process-feature-mini-ctn{
+        justify-content: column;
     }
 }
 </style>
