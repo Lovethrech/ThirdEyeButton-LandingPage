@@ -26,7 +26,9 @@ import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
     gap:3vh;    
 }
 #process-feature-mini-ctn{
-    padding: 4vh 0;    
+    padding: 4vh 0;  
+    display: flex;  
+    flex-direction: row;
 }
 #process-feature-mini-ctn:nth-child(2){
     border-top: 0.1vh solid #000000;
