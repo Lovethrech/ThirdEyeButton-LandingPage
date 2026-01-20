@@ -44,9 +44,21 @@
     margin-bottom: 3vh;
 }
 
-@media screen and (max-width:990px) and (min-width:346px){
-    #process-title-name{
+@media screen and (max-width:345px) {
+    #process-title-name, #process-title-tag{
         text-align: center;
     }
+    #process-title-tag{
+        margin:0;
+    }
+}
+@media screen and (max-width:990px) and (min-width:346px){
+    #process-title-name, #process-title-tag, #process-title-desc{
+        text-align: center;
+    }
+    #process-title-tag{
+        margin:0;
+    }
+
 }
 </style>
