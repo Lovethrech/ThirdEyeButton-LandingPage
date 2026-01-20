@@ -29,6 +29,7 @@ import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
     padding: 4vh 0;  
     display: flex;  
     flex-direction: row;
+    justify-content: space-between;
 }
 #process-feature-mini-ctn:nth-child(2){
     border-top: 0.1vh solid #000000;
