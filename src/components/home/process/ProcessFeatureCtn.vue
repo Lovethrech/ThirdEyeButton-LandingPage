@@ -51,7 +51,7 @@ import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
         width:100%;        
     }
     #process-feature-mini-ctn{
-        justify-content: column;
+        flex-direction: column-reverse;
     }
 }
 </style>
