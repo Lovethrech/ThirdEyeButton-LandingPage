@@ -28,7 +28,10 @@ import ProcessFeature from './ProcessFeature.vue';
     
 }
 #process-feature-mini-ctn{
-    padding: 4vh 0;
+    padding: 4vh 0;    
+}
+#process-feature-mini-ctn:nth-child(2){
+    border-top: 0.1vh solid #000000;
     border-bottom: 0.1vh solid #000000;
 }
 </style>
