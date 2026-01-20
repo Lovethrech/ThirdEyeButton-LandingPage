@@ -5,7 +5,7 @@
         "title":"Registered Users",
         "desc":"We provide secure access for registered university staff and students, ensuring data privacy and confidentiality. Our system offers role-based permissions to control access and maintain the integrity of exam scheduling information.",
         "imgSrc":"/process-icon-one.svg",
-        "imgAlt":""
+        "imgAlt":"Registered user Icon"
     },
     {
         "id":"2",
@@ -13,7 +13,7 @@
         "title":"Optimized Resource Management",
         "desc":"Our system optimizes resource a location by efficiently assigning exam venues, invigilators, and time slots. Through inte ligent resource management, we minimize conflicts and maximize the utilization of available resources.",
         "imgSrc":"/process-icon-two.svg",
-        "imgAlt":""
+        "imgAlt":"Efficiency Icon"
     },
     {
         "id":"3",
@@ -21,6 +21,6 @@
         "title":"Dedicated Assistance",
         "desc":"Our team provides dedicated support and guidance to university administrators and staff, ensuring a smooth transition to our exam scheduling system. From initial setup to ongoing assistance, we are committed to enhancing the efficiency of exam management",
         "imgSrc":"/process-icon-three.svg",
-        "imgAlt":""
+        "imgAlt":"Support Icon"
     }
 ]
