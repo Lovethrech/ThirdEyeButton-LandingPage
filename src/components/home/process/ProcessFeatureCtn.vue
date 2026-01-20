@@ -45,4 +45,8 @@ import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
     border-top: 0.1vh solid #000000;
     border-bottom: 0.1vh solid #000000;
 }
+
+@media screen and (max-width:990px) {
+    
+}
 </style>
