@@ -21,8 +21,7 @@ import ProcessFeature from './ProcessFeature.vue';
     justify-content: right;
 }
 #process-feature-main-ctn{
-    width:40%;
-    
+    width:40%;    
     display: flex;
     flex-direction: column;
     gap:3vh;
