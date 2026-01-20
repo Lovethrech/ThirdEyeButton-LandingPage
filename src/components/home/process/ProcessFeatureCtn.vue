@@ -8,6 +8,9 @@ import ProcessFeature from './ProcessFeature.vue';
             <div id="process-feature-mini-ctn">
                 <ProcessFeature></ProcessFeature>
             </div>
+            <div id="process-feature-mini-ctn">
+                <ProcessFeature></ProcessFeature>
+            </div>
         </div>
     </div>
 </template>
@@ -19,7 +22,13 @@ import ProcessFeature from './ProcessFeature.vue';
 }
 #process-feature-main-ctn{
     width:40%;
-    background-color: red;
+    
+    display: flex;
+    flex-direction: column;
+    gap:3vh;
+    
+}
+#process-feature-mini-ctn{
     padding: 4vh 0;
     border-bottom: 0.1vh solid #000000;
 }
