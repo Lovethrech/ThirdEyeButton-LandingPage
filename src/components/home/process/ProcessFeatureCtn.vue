@@ -9,8 +9,8 @@ import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
         <div id="process-feature-main-ctn">
             <div id="process-feature-mini-ctn" v-for="processFeatureDetail in processFeatureDetails" :key="processFeatureDetail.id">
                 <ProcessFeature
-                    :subTitle="processFeatureDetails.subTitle"
-                    :title="processFeatureDetails.title"
+                    :subTitle="processFeatureDetail.subTitle"
+                    :title="processFeatureDetail.title"
                 >
                 </ProcessFeature>
                 <ProcessFeatureIcon></ProcessFeatureIcon>
