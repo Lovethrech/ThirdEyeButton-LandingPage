@@ -6,7 +6,7 @@ const {imgSrc, imgAlt}=defineProps(['imgSrc', 'imgAlt']);
 
 <template>
     <div class="process-feature-icon-ctn">
-        <img :src="{imgSrc}" :alt="{imgAlt}">
+        <img :src="imgSrc" :alt="imgAlt">
     </div>
 </template>
 
