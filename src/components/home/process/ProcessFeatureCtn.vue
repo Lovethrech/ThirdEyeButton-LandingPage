@@ -5,9 +5,17 @@ import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
 </script>
 
 <template>
-    <div class="process-feature-ctn">
-        <div id="process-feature-main-ctn">
-            <div id="process-feature-mini-ctn" v-for="processFeatureDetail in processFeatureDetails" :key="processFeatureDetail.id">
+    <div 
+        class="process-feature-ctn"
+    >
+        <div 
+            id="process-feature-main-ctn"
+        >
+            <div 
+                id="process-feature-mini-ctn" 
+                v-for="processFeatureDetail in processFeatureDetails" 
+                :key="processFeatureDetail.id"
+            >
                 <ProcessFeature
                     :subTitle="processFeatureDetail.subTitle"
                     :title="processFeatureDetail.title"
