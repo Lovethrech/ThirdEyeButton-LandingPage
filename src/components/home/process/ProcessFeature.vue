@@ -15,3 +15,15 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+.process-feature-sub-title{
+
+}
+.process-feature-title{
+
+}
+.process-feature-desc{
+    
+}
+</style>
