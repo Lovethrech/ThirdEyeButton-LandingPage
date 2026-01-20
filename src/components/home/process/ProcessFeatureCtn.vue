@@ -24,8 +24,7 @@ import ProcessFeature from './ProcessFeature.vue';
     width:40%;    
     display: flex;
     flex-direction: column;
-    gap:3vh;
-    
+    gap:3vh;    
 }
 #process-feature-mini-ctn{
     padding: 4vh 0;    
