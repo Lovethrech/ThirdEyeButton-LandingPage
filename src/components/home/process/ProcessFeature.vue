@@ -5,7 +5,7 @@
                 User Access
             </p>
             <p class="process-feature-title">
-
+                Registered Users
             </p>
             <p class="process-feature-desc">
 
