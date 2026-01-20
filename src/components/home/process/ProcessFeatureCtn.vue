@@ -9,3 +9,14 @@ import ProcessFeature from './ProcessFeature.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+.process-feature-ctn{
+
+}
+#process-feature-mini-ctn{
+    width:40%;
+    padding: 4vh 0;
+    border-bottom: 0.1vh solid #000000;
+}
+</style>
