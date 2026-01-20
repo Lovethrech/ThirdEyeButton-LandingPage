@@ -1,5 +1,6 @@
 <script setup>
 import ProcessFeature from './ProcessFeature.vue';
+import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
 </script>
 
 <template>
@@ -7,6 +8,7 @@ import ProcessFeature from './ProcessFeature.vue';
         <div id="process-feature-main-ctn">
             <div id="process-feature-mini-ctn">
                 <ProcessFeature></ProcessFeature>
+                <ProcessFeatureIcon></ProcessFeatureIcon>
             </div>
         </div>
     </div>
