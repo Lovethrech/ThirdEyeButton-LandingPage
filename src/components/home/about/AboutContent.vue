@@ -4,8 +4,12 @@ import AboutDesc from './AboutDesc.vue';
 </script>
 
 <template>
-    <section class="about-content">
-        <div id="about-content-mini-ctn">
+    <section 
+        class="about-content"
+    >
+        <div 
+            id="about-content-mini-ctn"
+        >
             <AboutTitle></AboutTitle>
             <AboutDesc></AboutDesc>
         </div>
