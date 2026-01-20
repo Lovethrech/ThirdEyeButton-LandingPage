@@ -13,7 +13,7 @@
     font-size:8vh;
     font-family: "Old Standard TT", serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 @media screen and (max-width:345px) {
