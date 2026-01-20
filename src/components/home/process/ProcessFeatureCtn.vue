@@ -11,9 +11,14 @@ import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
                 <ProcessFeature
                     :subTitle="processFeatureDetail.subTitle"
                     :title="processFeatureDetail.title"
+                    :desc="processFeatureDetail.desc"
                 >
                 </ProcessFeature>
-                <ProcessFeatureIcon></ProcessFeatureIcon>
+                <ProcessFeatureIcon
+                    :imgSrc="processFeatureDetail.imgSrc"
+                    :imgAlt="processFeatureDetail.imgAlt"
+                >
+                </ProcessFeatureIcon>
             </div>
         </div>
     </div>
