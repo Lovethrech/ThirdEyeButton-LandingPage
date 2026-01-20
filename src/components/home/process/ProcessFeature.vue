@@ -20,6 +20,7 @@ const {subTitle, title, desc}=defineProps(['subTitle', "title", "desc"]);
 
 <style scoped>
 .process-feature-sub-title{
+    font-size: 1.6vh;
     font-family: "Cormorant Unicase", serif;
 }
 .process-feature-title{
