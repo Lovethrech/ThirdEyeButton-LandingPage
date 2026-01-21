@@ -11,12 +11,12 @@
                 How It Works
             </h3>
             <p 
-                id="process-title-tag"
+                class="process-title-tag"
             >
                 Seamless Exam Scheduling
             </p>
             <p 
-                id="process-title-desc"
+                class="process-title-desc"
             >
                 Our process involves advanced scheduling algorithms, automated conflict resolution,
                 <br/>
@@ -47,7 +47,7 @@
     font-size: 1.6vh;
     letter-spacing: 0.3vh;
 }
-#process-title-desc{
+.process-title-desc{
     font-size: 2vh;
     font-family: "Roboto Condensed", sans-serif;
     line-height: 4vh;
@@ -63,7 +63,7 @@
     }
 }
 @media screen and (max-width:990px) and (min-width:346px){
-    .process-title-name, .process-title-tag, #process-title-desc{
+    .process-title-name, .process-title-tag, .process-title-desc{
         text-align: center;
     }
     .process-title-tag{
