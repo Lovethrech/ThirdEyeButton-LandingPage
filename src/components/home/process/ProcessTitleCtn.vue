@@ -6,7 +6,7 @@
             class="process-title-ctn-mini-ctn"
         >
             <h3 
-                id="process-title-name"
+                class="process-title-name"
             >
                 How It Works
             </h3>
@@ -35,7 +35,7 @@
     width: 100%;
     border-bottom: 0.1vh solid #000000;
 }
-#process-title-name{
+.process-title-name{
     font-size: 6vh;
     font-family: "Old Standard TT", serif;
     font-optical-sizing: auto;
@@ -55,7 +55,7 @@
 }
 
 @media screen and (max-width:345px) {
-    #process-title-name, #process-title-tag{
+    .process-title-name, #process-title-tag{
         text-align: center;
     }
     #process-title-tag{
@@ -63,7 +63,7 @@
     }
 }
 @media screen and (max-width:990px) and (min-width:346px){
-    #process-title-name, #process-title-tag, #process-title-desc{
+    .process-title-name, #process-title-tag, #process-title-desc{
         text-align: center;
     }
     #process-title-tag{
