@@ -1,5 +1,5 @@
 <template>
-    <div class="review-content">
-        
-    </div>
+    <section class="review-content">
+
+    </section>
 </template>
