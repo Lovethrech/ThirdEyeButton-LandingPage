@@ -8,12 +8,12 @@
             <h3 
                 class="process-title-name"
             >
-                How It Works
+                
             </h3>
             <p 
                 class="process-title-tag"
             >
-                Seamless Exam Scheduling
+                
             </p>
             <p 
                 class="process-title-desc"
