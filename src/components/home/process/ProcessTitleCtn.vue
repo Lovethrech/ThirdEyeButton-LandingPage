@@ -41,7 +41,7 @@
     font-optical-sizing: auto;
     font-weight: 500;
 }
-#process-title-tag{
+.process-title-tag{
     margin: 6vh 0 2vh;
     font-family: "Cormorant Unicase", serif;
     font-size: 1.6vh;
@@ -55,18 +55,18 @@
 }
 
 @media screen and (max-width:345px) {
-    .process-title-name, #process-title-tag{
+    .process-title-name, .process-title-tag{
         text-align: center;
     }
-    #process-title-tag{
+    .process-title-tag{
         margin:0;
     }
 }
 @media screen and (max-width:990px) and (min-width:346px){
-    .process-title-name, #process-title-tag, #process-title-desc{
+    .process-title-name, .process-title-tag, #process-title-desc{
         text-align: center;
     }
-    #process-title-tag{
+    .process-title-tag{
         margin:0;
     }
 
