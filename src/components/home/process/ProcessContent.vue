@@ -4,7 +4,7 @@ import ProcessFeatureCtn from './ProcessFeatureCtn.vue';
 </script>
 
 <template>
-    <div 
+    <section 
         class="process-content"
     >
         <div 
@@ -13,7 +13,7 @@ import ProcessFeatureCtn from './ProcessFeatureCtn.vue';
             <ProcessTitleCtn></ProcessTitleCtn>
             <ProcessFeatureCtn></ProcessFeatureCtn>
         </div>
-    </div>
+    </section>
 </template>
 
 <style scoped>
