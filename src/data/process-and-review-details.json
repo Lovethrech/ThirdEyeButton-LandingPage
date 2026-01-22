@@ -3,12 +3,12 @@
         "id":"1",
         "title":"How It Works",
         "tag":"Seamless Exam Scheduling",
-        "desc":"Our process involves advanced scheduling algorithms, automated conflict resolution,<br/>and real-time updates to create a sophisticated exam scheduling system. Experience<br/>the convenience of managing exam schedules, room assignments, and student<br/>allocations effortlessly"
+        "desc":"<p class='process-title-desc'>Our process involves advanced scheduling algorithms, automated conflict resolution,<br/>and real-time updates to create a sophisticated exam scheduling system. Experience<br/>the convenience of managing exam schedules, room assignments, and student<br/>allocations effortlessly</p>"
     },
     {
         "id":"2",
         "title":"",
         "tag":"",
-        "desc":""
+        "desc":"<p class='process-title-desc'></p>"
     }
 ]

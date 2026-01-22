@@ -21,11 +21,7 @@ const {title, tag, desc}=defineProps(['title', 'tag', 'desc']);
             >   {{ tag }}
                 
             </p>
-            <p 
-                class="process-title-desc"
-            >
-                {{ desc }}
-            </p>
+            <p class="process-title-desc">Our process involves advanced scheduling algorithms, automated conflict resolution,<br/>and real-time updates to create a sophisticated exam scheduling system. Experience<br/>the convenience of managing exam schedules, room assignments, and student<br/>allocations effortlessly</p>
         </div>
     </div>
 </template>
