@@ -1,3 +1,9 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const {}
+</script>
+
 <template>
     <div 
         class="process-title-ctn"
