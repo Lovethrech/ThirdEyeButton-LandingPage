@@ -21,7 +21,7 @@ const {title, tag, desc}=defineProps(['title', 'tag', 'desc']);
             >   {{ tag }}
                 
             </p>
-            <p class="process-title-desc">Our process involves advanced scheduling algorithms, automated conflict resolution,<br/>and real-time updates to create a sophisticated exam scheduling system. Experience<br/>the convenience of managing exam schedules, room assignments, and student<br/>allocations effortlessly</p>
+            <div class="process-title-desc-ctn" v-html="desc"></div>
         </div>
     </div>
 </template>
@@ -43,7 +43,7 @@ const {title, tag, desc}=defineProps(['title', 'tag', 'desc']);
     font-size: 1.6vh;
     letter-spacing: 0.3vh;
 }
-.process-title-desc{
+.process-title-desc-ctn{
     font-size: 2vh;
     font-family: "Roboto Condensed", sans-serif;
     line-height: 4vh;
@@ -59,7 +59,7 @@ const {title, tag, desc}=defineProps(['title', 'tag', 'desc']);
     }
 }
 @media screen and (max-width:990px) and (min-width:346px){
-    .process-title-name, .process-title-tag, .process-title-desc{
+    .process-title-name, .process-title-tag, .process-title-desc-ctn{
         text-align: center;
     }
     .process-title-tag{
