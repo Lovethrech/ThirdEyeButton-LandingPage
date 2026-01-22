@@ -2,8 +2,6 @@
 import processAndReviewDetails from "@/data/process-and-review-details.json";
 import ProcessTitleCtn from '@/components/home/process/ProcessTitleCtn.vue';
 import ProcessFeatureCtn from './ProcessFeatureCtn.vue';
-
-
 </script>
 
 <template>
@@ -13,7 +11,10 @@ import ProcessFeatureCtn from './ProcessFeatureCtn.vue';
         <div 
             class="process-content-mini-ctn"
         >
-            <ProcessTitleCtn></ProcessTitleCtn>
+            <ProcessTitleCtn
+                :title="processAndReviewDetails[0].title"
+            >
+            </ProcessTitleCtn>
             <ProcessFeatureCtn></ProcessFeatureCtn>
         </div>
     </section>
