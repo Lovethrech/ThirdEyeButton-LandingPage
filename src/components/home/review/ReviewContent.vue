@@ -4,8 +4,15 @@ import ProcessTitleCtn from '../process/ProcessTitleCtn.vue';
 
 <template>
     <section class="review-content">
-        <div id="review-content">
+        <div id="review-content-mini-ctn">
             <ProcessTitleCtn></ProcessTitleCtn>
         </div>
     </section>
 </template>
+
+<style scoped>
+.review-content{
+    background: linear-gradient(to bottom, #cae0ff, #ffffff);
+    min-height: 100vh;
+}
+</style>
