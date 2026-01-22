@@ -13,6 +13,8 @@ import ProcessFeatureCtn from './ProcessFeatureCtn.vue';
         >
             <ProcessTitleCtn
                 :title="processAndReviewDetails[0].title"
+                :tag="processAndReviewDetails[0].tag"
+                :desc="processAndReviewDetails[0].desc"
             >
             </ProcessTitleCtn>
             <ProcessFeatureCtn></ProcessFeatureCtn>
