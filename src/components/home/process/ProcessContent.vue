@@ -26,7 +26,7 @@ import ProcessFeatureCtn from './ProcessFeatureCtn.vue';
 .process-content{
     background: linear-gradient(to bottom, #ffffff, #cae0ff);
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 5vh 4vw;
 }
 
