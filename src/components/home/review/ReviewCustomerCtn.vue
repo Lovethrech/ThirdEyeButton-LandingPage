@@ -20,3 +20,12 @@ import ReviewCustomer from './ReviewCustomer.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+.review-customer-ctn{
+    display: flex;
+}
+.review-customer-main-ctn{
+
+}
+</style>
