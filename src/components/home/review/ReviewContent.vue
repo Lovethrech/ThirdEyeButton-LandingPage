@@ -1,11 +1,11 @@
 <script setup>
-// import ProcessTitleCtn from '../process/ProcessTitleCtn.vue';
+import ProcessTitleCtn from '../process/ProcessTitleCtn.vue';
 </script>
 
 <template>
     <section class="review-content">
         <div id="review-content-mini-ctn">
-            <!-- <ProcessTitleCtn></ProcessTitleCtn> -->
+            <ProcessTitleCtn></ProcessTitleCtn>
         </div>
     </section>
 </template>
