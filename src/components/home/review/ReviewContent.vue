@@ -7,7 +7,9 @@ import ProcessTitleCtn from '../process/ProcessTitleCtn.vue';
     <section class="review-content">
         <div id="review-content-mini-ctn">
             <ProcessTitleCtn
-                
+                :title="processAndReviewDetails[0].title"
+                :tag="processAndReviewDetails[0].tag"
+                :desc="processAndReviewDetails[0].desc"
             >
             </ProcessTitleCtn>
         </div>
