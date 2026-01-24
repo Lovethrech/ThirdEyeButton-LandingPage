@@ -29,6 +29,5 @@ import ReviewCustomer from './ReviewCustomer.vue';
 }
 .review-customer-main-ctn{
     width: 45%;
-    background-color: red;
 }
 </style>
