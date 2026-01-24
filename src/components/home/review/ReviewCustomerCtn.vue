@@ -25,9 +25,10 @@ import ReviewCustomer from './ReviewCustomer.vue';
 .review-customer-ctn{
     display: flex;
     justify-content: right;
+    padding: 3vh 0;
 }
 .review-customer-main-ctn{
-    width: 50%;
+    width: 45%;
     background-color: red;
 }
 </style>
