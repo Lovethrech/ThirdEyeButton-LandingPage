@@ -16,6 +16,6 @@ const {name, desc}=defineProps(['name', 'desc']);
 <style scoped>
 .review-customer{
     display:flex;
-    
+    flex-direction: row;
 }
 </style>
