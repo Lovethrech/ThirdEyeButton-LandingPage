@@ -17,9 +17,17 @@ const {name, desc}=defineProps(['name', 'desc']);
 .review-customer{
     display:flex;
     flex-direction: row;
-    gap:6vw;
+    gap:3vw;
 }
 .review-customer-name{
-    width: 40%;
+    width: 46%;
+    font-size: 2vh;
+    font-family: "Old Standard TT", serif;
+}
+.review-customer-comment-ctn{
+    font-size:1.6vh;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    line-height: 4vh;
 }
 </style>
