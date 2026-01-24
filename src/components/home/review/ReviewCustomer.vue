@@ -30,4 +30,10 @@ const {name, desc}=defineProps(['name', 'desc']);
     font-weight: 300;
     line-height: 4vh;
 }
+
+@media screen and (max-width: 990px){
+    .review-customer-comment-ctn{
+        text-align: justify;
+    }
+}
 </style>
