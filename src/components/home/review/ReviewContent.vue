@@ -3,11 +3,11 @@ import ProcessTitleCtn from '../process/ProcessTitleCtn.vue';
 </script>
 
 <template>
-    <section class="review-content">
+    <s class="review-content">
         <div id="review-content-mini-ctn">
             <ProcessTitleCtn></ProcessTitleCtn>
         </div>
-    </section>
+    </s>
 </template>
 
 <style scoped>
