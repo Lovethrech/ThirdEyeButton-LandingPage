@@ -10,7 +10,7 @@ import ProcessContent from '@/components/home/process/ProcessContent.vue';
     <MainHero></MainHero>
     <AboutContent></AboutContent>
     <ProcessContent></ProcessContent>
-    <!-- <ReviewContent></ReviewContent> -->
+    <ReviewContent></ReviewContent>
   </main>
 </template>
 
