@@ -1,4 +1,5 @@
 <script setup>
+import processAndReviewDetails from "@/data/process-and-review-details.json";
 import ProcessTitleCtn from '../process/ProcessTitleCtn.vue';
 </script>
 
