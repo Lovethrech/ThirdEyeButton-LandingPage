@@ -1,6 +1,7 @@
 <script setup>
 import processAndReviewDetails from "@/data/process-and-review-details.json";
 import ProcessTitleCtn from '../process/ProcessTitleCtn.vue';
+import ReviewCustomerCtn from "./ReviewCustomerCtn.vue";
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import ProcessTitleCtn from '../process/ProcessTitleCtn.vue';
                 :desc="processAndReviewDetails[1].desc"
             >
             </ProcessTitleCtn>
+            <ReviewCustomerCtn></ReviewCustomerCtn>
         </div>
     </section>
 </template>
