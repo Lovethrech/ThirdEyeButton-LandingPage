@@ -15,5 +15,7 @@ import ReviewContent from '@/components/home/review/ReviewContent.vue';
 </template>
 
 <style scoped>
-
+main{
+  min-height:100%;
+}
 </style>
