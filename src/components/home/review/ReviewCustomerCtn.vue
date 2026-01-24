@@ -1,4 +1,5 @@
 <script setup>
+import reviewCustomerDetails from "@/data/review-custmer-details.json";
 import ReviewCustomer from './ReviewCustomer.vue';
 </script>
 
