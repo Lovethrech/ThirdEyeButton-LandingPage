@@ -27,7 +27,7 @@ import ProcessFeatureCtn from './ProcessFeatureCtn.vue';
     background: linear-gradient(to bottom, #ffffff, #cae0ff);
     width: 100%;
     height: 100%;
-    padding: 5vh 4vw;
+    padding: 5vh 4vw 10vh;
 }
 
 @media screen and (max-width:990px) {
