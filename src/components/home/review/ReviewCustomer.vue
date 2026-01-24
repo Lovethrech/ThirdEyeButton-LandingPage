@@ -1,3 +1,9 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const {name, desc}=defineProps()
+</script>
+
 <template>
     <div class="review-customer">
         <p class="review-customer-name">
