@@ -3,8 +3,11 @@
         <p class="review-customer-name">
                         
         </p>
-        <p class="review-customer-comment">
+        <div class="review-customer-comment-ctn">
+            <p class="review-customer-comment">
 
-        </p>
+            </p>
+        </div>
+        
     </div>
 </template>
