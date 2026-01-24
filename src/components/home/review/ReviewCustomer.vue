@@ -14,5 +14,7 @@ const {name, desc}=defineProps(['name', 'desc']);
 </template>
 
 <style scoped>
-
+.review-customer{
+    
+}
 </style>
