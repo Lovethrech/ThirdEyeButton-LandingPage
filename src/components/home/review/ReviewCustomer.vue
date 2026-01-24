@@ -17,5 +17,6 @@ const {name, desc}=defineProps(['name', 'desc']);
 .review-customer{
     display:flex;
     flex-direction: row;
+    gap:6vw;
 }
 </style>
