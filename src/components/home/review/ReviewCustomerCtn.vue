@@ -11,7 +11,11 @@ import ReviewCustomer from './ReviewCustomer.vue';
                 :key="reviewCustomerDetail.id"
                 class="review-customer-mini-ctn"
             >
-                <ReviewCustomer></ReviewCustomer>
+                <ReviewCustomer
+                    :name="reviewCustomerDetail.name"
+                    :desc="reviewCustomerDetail.desc"
+                >
+                </ReviewCustomer>
             </div>
         </div>
     </div>
