@@ -7,7 +7,8 @@ import ProcessTitleCtn from '../process/ProcessTitleCtn.vue';
     <section class="review-content">
         <div id="review-content-mini-ctn">
             <ProcessTitleCtn
-            ></ProcessTitleCtn>
+            >
+            </ProcessTitleCtn>
         </div>
     </section>
 </template>
