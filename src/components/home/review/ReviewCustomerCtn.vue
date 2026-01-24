@@ -43,7 +43,7 @@ import ReviewCustomer from './ReviewCustomer.vue';
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
-        margin-right:190vw;
+        margin-right:300px;
     }
 }
 </style>
