@@ -19,7 +19,7 @@ import ProcessTitleCtn from '../process/ProcessTitleCtn.vue';
 <style scoped>
 .review-content{
     background: linear-gradient(to bottom, #cae0ff, #ffffff);
-    height: 100%;
+    min-height: 100%;
     padding: 2vh 4vw;
 }
 </style>
