@@ -35,6 +35,8 @@ import ReviewCustomer from './ReviewCustomer.vue';
 }
 
 @media screen and (max-width:990px) and (min-width:346px){
-    
+    .review-customer-main-ctn{
+        
+    }
 }
 </style>
