@@ -9,11 +9,7 @@ const {name, desc}=defineProps(['name', 'desc']);
         <p class="review-customer-name">
             {{ name }}
         </p>
-        <div class="review-customer-comment-ctn">
-            <p class="review-customer-comment">
-
-            </p>
-        </div>
+        <div class="review-customer-comment-ctn" v-html="desc"></div>
         
     </div>
 </template>
