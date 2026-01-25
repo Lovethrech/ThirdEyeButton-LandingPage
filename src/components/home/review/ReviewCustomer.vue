@@ -34,7 +34,6 @@ const {name, desc}=defineProps(['name', 'desc']);
 @media screen and (max-width: 990px){
     .review-customer-name{
         width:50%;
-        height: 1000000
     }
     .review-customer-comment-ctn{
         text-align: justify;
