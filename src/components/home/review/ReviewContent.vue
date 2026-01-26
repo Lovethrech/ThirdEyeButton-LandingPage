@@ -9,7 +9,8 @@ import ReviewCustomerCtn from "./ReviewCustomerCtn.vue";
         class="review-content"
     >
         <div 
-            id="review-content-mini-ctn">
+            id="review-content-mini-ctn"
+            >
             <ProcessTitleCtn
                 :title="processAndReviewDetails[1].title"
                 :tag="processAndReviewDetails[1].tag"
