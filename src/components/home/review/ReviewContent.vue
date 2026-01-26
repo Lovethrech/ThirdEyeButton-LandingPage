@@ -6,8 +6,10 @@ import ReviewCustomerCtn from "./ReviewCustomerCtn.vue";
 
 <template>
     <section 
-        class="review-content">
-        <div id="review-content-mini-ctn">
+        class="review-content"
+    >
+        <div 
+            id="review-content-mini-ctn">
             <ProcessTitleCtn
                 :title="processAndReviewDetails[1].title"
                 :tag="processAndReviewDetails[1].tag"
