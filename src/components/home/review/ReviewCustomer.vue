@@ -6,7 +6,8 @@ const {name, desc}=defineProps(['name', 'desc']);
 
 <template>
     <div 
-        class="review-customer">
+        class="review-customer"
+        >
         <p class="review-customer-name">
             {{ name }}
         </p>
