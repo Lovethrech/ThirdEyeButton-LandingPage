@@ -14,7 +14,8 @@ const {name, desc}=defineProps(['name', 'desc']);
             {{ name }}
         </p>
         <div 
-            class="review-customer-comment-ctn" v-html="desc"></div>
+            class="review-customer-comment-ctn" 
+            v-html="desc"></div>
     </div>
 </template>
 
