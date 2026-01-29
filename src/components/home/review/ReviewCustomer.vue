@@ -15,7 +15,8 @@ const {name, desc}=defineProps(['name', 'desc']);
         </p>
         <div 
             class="review-customer-comment-ctn" 
-            v-html="desc"></div>
+            v-html="desc"
+            ></div>
     </div>
 </template>
 
