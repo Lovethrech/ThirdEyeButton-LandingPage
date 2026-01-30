@@ -6,7 +6,7 @@
 
 <style scoped>
 .contact-content{
-    width: 1905;
+    width: 100%;
     min-height: 100vh;
     background-color: #ffffff;
 }
