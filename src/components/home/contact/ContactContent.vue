@@ -1,6 +1,8 @@
 <template>
     <section class="contact-content">
-
+        <div class="contact-content-mini-ctn">
+            
+        </div>
     </section>
 </template>
 
