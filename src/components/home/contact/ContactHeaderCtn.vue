@@ -23,6 +23,7 @@
     background-color: red;
     display:flex;
     flex-direction: column;
+    text-align: center;
 }
 .contact-header-title{
 
