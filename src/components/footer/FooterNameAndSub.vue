@@ -13,5 +13,6 @@ import FooterName from './FooterName.vue';
     width: 100%;
     min-height: 40vh;
     background: linear-gradient(to right, #ffffff, #cae0ff);
+    padding: 3vh 0;
 }
 </style>

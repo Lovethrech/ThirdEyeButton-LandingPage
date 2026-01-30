@@ -1,7 +1,17 @@
 <template>
     <div class="footer-name">
         <p class="footer-name-and-sub-name">
-            Dr Ezike
+            Dr. Ezike
         </p>
     </div>
 </template>
+
+<style scoped>
+.footer-name{
+    font-size: 3vh;
+    font-family: "Old Standard TT", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+</style>
