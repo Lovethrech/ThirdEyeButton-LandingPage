@@ -31,9 +31,13 @@
     font-weight: 600;
 }
 .contact-header-subtitle{
-
+    font-family: "Cormorant Unicase", serif;
+    font-size: 1.6vh;
+    letter-spacing: 0.3vh;
 }
 .contact-header-desc{
-
+    font-size: 1.6vh;
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 4vh;
 }
 </style>
