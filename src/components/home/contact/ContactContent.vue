@@ -4,8 +4,12 @@ import ContactFormCtn from './ContactFormCtn.vue';
 </script>
 
 <template>
-    <section class="contact-content">
-        <div class="contact-content-mini-ctn">
+    <section 
+        class="contact-content"
+    >
+        <div 
+            class="contact-content-mini-ctn"
+        >
             <ContactHeaderCtn></ContactHeaderCtn>
             <ContactFormCtn></ContactFormCtn>
         </div>
