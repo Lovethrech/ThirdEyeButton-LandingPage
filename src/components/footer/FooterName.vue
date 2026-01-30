@@ -9,7 +9,7 @@
 <style scoped>
 .footer-name{
     font-size: 3vh;
-    font-family: "Old Standard TT", serif;
+    font-family: "Cormorant Unicase", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     text-transform: capitalize;
