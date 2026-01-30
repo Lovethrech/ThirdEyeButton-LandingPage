@@ -9,3 +9,9 @@ import ContactFormLabelAndInput from './ContactFormLabelAndInput.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+.contact-form-ctn{
+    margin: 4vh 0;
+}
+</style>
