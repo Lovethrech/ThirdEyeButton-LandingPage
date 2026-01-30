@@ -5,11 +5,18 @@ const {labelName, labelFor, inputType}=defineProps(["labelName", "labelFor", "in
 </script>
 
 <template>
-    <div class="contact-form-label-and-input-ctn">
-        <label :for="labelFor" class="contact-form-label-and-input-ctn-label">
+    <div 
+        class="contact-form-label-and-input-ctn"
+    >
+        <label 
+            :for="labelFor" 
+            class="contact-form-label-and-input-ctn-label"
+        >
             {{labelName}}
         </label>
-        <input :type="inputType" class="contact-form-label-and-input-ctn-input">
+        <input 
+            :type="inputType" 
+            class="contact-form-label-and-input-ctn-input">
     </div>
 </template>
 
