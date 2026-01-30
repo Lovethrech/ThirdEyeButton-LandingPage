@@ -30,4 +30,10 @@ import ContactFormCtn from './ContactFormCtn.vue';
     width:50%;
     padding:2vh 3vw;
 }
+
+@media screen and (max-width:990px) {
+    .contact-content-mini-ctn{
+        width: 100%;
+    }
+}
 </style>
