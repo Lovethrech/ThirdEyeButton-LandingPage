@@ -6,7 +6,7 @@ import ReviewCustomer from './ReviewCustomer.vue';
 <template>
     <div 
             class="review-customer-ctn"
-        >
+    >
         <div class="review-customer-main-ctn">
             <div 
                 v-for="reviewCustomerDetail in reviewCustomerDetails"
