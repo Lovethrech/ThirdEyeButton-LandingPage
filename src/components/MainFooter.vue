@@ -12,6 +12,6 @@ import FooterNameAndSub from './footer/FooterNameAndSub.vue';
 
 <style scoped>
 footer{
-    
+    padding: 0 4vw;
 }
 </style>
