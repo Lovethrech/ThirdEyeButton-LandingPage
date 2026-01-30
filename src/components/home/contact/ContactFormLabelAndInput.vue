@@ -16,7 +16,9 @@ const {labelName, labelFor, inputType}=defineProps(["labelName", "labelFor", "in
         </label>
         <input 
             :type="inputType" 
-            class="contact-form-label-and-input-ctn-input">
+            class="contact-form-label-and-input-ctn-input"
+            required
+        >
     </div>
 </template>
 
