@@ -29,6 +29,7 @@ const {labelName, labelFor, inputType}=defineProps(["labelName", "labelFor", "in
 }
 .contact-form-label-and-input-ctn-label{
     font-size: 1.8vh;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .contact-form-label-and-input-ctn-input{
     margin: 1vh 0;

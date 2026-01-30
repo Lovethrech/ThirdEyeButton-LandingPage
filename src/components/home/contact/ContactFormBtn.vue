@@ -10,11 +10,13 @@
 
 <style scoped>
 .contact-form-btn-ctn{
-    width: 100%;
+    width: 100%;    
 }
 .contact-form-btn{
     width: 100%;
     background-color: #000000;
+    font-family: "Cormorant Unicase", serif;
+    letter-spacing:1vh;
     color: #ffffff;
     padding: 1vh 1vw;
     font-size: 1.8vh;
