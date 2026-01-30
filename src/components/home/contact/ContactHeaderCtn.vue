@@ -19,6 +19,9 @@
 </template>
 
 <style scoped>
+.contact-header-ctn{
+    background-color: red;
+}
 .contact-header-title{
 
 }
@@ -26,6 +29,6 @@
 
 }
 .contact-header-desc{
-    
+
 }
 </style>
