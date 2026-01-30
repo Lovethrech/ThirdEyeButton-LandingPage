@@ -51,4 +51,15 @@ const {name, desc}=defineProps(['name', 'desc']);
         text-align: right;
     }
 }
+@media screen and (width: 1024px) and (min-height:1360px) {
+    .review-customer{
+        flex-direction: column;
+    }
+    .review-customer-name{
+        width:100%;
+    }
+    .review-customer-name, .review-customer-comment-ctn{
+        text-align: right;
+    }
+}
 </style>
