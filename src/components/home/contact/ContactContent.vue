@@ -15,11 +15,13 @@ import ContactHeaderCtn from './ContactHeaderCtn.vue';
     width: 100%;
     min-height: 100vh;
     background-color: #ffffff;
+    padding: 4vh 4vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .contact-content-mini-ctn{
     width:50%;
+    background-color: orange;
 }
 </style>
