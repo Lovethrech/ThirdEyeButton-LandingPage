@@ -17,19 +17,23 @@
                     required
                 >
             </div>
-            <div class="footer-sub-content-form-email-ctn">
-                <label 
-                    for="email" 
-                    class="footer-sub-content-form-email-label"
-                >
-                    Email*:
-                </label>
+            <div class="footer-sub-content-form-checkbox-ctn">
                 <input 
-                    type="email" 
-                    class="footer-sub-content-form-email-input"
+                    type="checkbox" 
+                    class="footer-sub-content-form-checkbox-input"
                     required
                 >
+                <label 
+                    for="email" 
+                    class="footer-sub-content-form-checkboxlabel"
+                >
+                    Yes, subscribe me to your newsletter. 
+                </label>
             </div>
         </form>
     </div>
 </template>
+
+<style scoped>
+
+</style>
