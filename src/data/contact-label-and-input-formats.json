@@ -7,15 +7,15 @@
     },
     {
         "id":"2",
-        "labelName":"First Name*:",
-        "labelFor":"firstName",
+        "labelName":"Last Name*:",
+        "labelFor":"lastName",
         "inputType":"text"
     },
     {
         "id":"3",
-        "labelName":"First Name*:",
-        "labelFor":"firstName",
-        "inputType":"text"
+        "labelName":"Email*:",
+        "labelFor":"email",
+        "inputType":"email"
     },
     {
         "id":"4",
