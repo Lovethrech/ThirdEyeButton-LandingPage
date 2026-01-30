@@ -52,6 +52,8 @@
 }
 
 @media screen and (max-width:990px) {
-
+    .contact-header-ctn{
+        text-align: left;
+    }
 }
 </style>
