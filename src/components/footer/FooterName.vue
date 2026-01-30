@@ -11,7 +11,7 @@
     font-size: 3vh;
     font-family: "Cormorant Unicase", serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: capitalize;
 }
 </style>

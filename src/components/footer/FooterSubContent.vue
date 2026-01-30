@@ -52,15 +52,16 @@
 
 <style scoped>
 .footer-sub-content{
+    width:40%;
     display: flex;
     flex-direction: column;
     gap:2vh;
 }
 .footer-sub-title{
-    font-size: 3vh;
+    font-size: 2.5vh;
     font-family: "Cormorant Unicase", serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: capitalize;
 }
 .footer-sub-content-form-email-ctn{
@@ -73,21 +74,17 @@
     background: transparent;
     border-bottom: 0.2vh solid #000000;
     padding: 1vh 1vw;
-    font-size: 1.8vh;
+    font-size: 1.6vh;
 }
 .footer-sub-content-form-email-label{
-    font-size: 1.8vh;
+    font-size: 1.6vh;
     font-family: "Roboto Condensed", sans-serif;
-}
-
-.footer-form-btn-ctn{
-    width: 100%;    
 }
 .footer-form-btn{
     width: 100%;
+    margin-top: 2vh;
     background-color: #000000;
     font-family: "Cormorant Unicase", serif;
-    letter-spacing:1vh;
     color: #ffffff;
     padding: 1vh 1vw;
     font-size: 1.8vh;
