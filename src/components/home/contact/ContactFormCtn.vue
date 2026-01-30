@@ -15,6 +15,7 @@ import ContactFormLabelAndInput from './ContactFormLabelAndInput.vue';
             <ContactFormLabelAndInput
                 :labelName="contactLabelAndInputFormat.labelName"
                 :labelFor="contactLabelAndInputFormat.labelFor"
+                :inputType="contactLabelAndInputFormat.inputType"
             >
             </ContactFormLabelAndInput>
         </div>
