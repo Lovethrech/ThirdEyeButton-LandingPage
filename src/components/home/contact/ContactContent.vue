@@ -36,4 +36,5 @@ import ContactFormCtn from './ContactFormCtn.vue';
         width: 100%;
     }
 }
+
 </style>
