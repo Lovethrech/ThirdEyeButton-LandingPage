@@ -12,7 +12,11 @@ import ContactFormLabelAndInput from './ContactFormLabelAndInput.vue';
             v-for="contactLabelAndInputFormat in contactLabelAndInputFormats" 
             :key="contactLabelAndInputFormat.id"
         >
-            <ContactFormLabelAndInput></ContactFormLabelAndInput>
+            <ContactFormLabelAndInput
+                :labelName="contactLabelAndInputFormat.labelName"
+                :labelFor="contactLabelAndInputFormat.labelFor"
+            >
+            </ContactFormLabelAndInput>
         </div>
     </div>
 </template>
