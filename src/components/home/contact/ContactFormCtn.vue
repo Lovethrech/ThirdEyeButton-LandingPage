@@ -26,4 +26,7 @@ import ContactFormLabelAndInput from './ContactFormLabelAndInput.vue';
 .contact-form-ctn{
     margin: 4vh 0;
 }
+.contact-form-mini-ctn{
+    margin: 2vh 0;
+}
 </style>
