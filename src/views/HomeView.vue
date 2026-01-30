@@ -18,6 +18,6 @@ import ContactContent from "@/components/home/contact/ContactContent.vue";
 
 <style scoped>
 main{
-  min-height:100%;
+  min-height:100vh;
 }
 </style>
