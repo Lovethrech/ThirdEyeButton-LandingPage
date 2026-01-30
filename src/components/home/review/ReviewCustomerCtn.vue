@@ -44,4 +44,10 @@ import ReviewCustomer from './ReviewCustomer.vue';
         justify-content: space-between;
     }
 }
+@media screen and (width: 1024px) and (min-height:1360px) {
+    .review-customer-main-ctn{
+        width: 100%;
+        justify-content: space-between;
+    }
+}
 </style>
