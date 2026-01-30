@@ -16,5 +16,8 @@ import FooterSubContent from './FooterSubContent.vue';
     min-height: 40vh;
     background: linear-gradient(to right, #ffffff, #cae0ff);
     padding: 3vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 </style>
