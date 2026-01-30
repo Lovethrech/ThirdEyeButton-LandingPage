@@ -1,9 +1,15 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const {labelName, labelFor, inputType}=defineProps(["labelName", "labelFor", "inputType"]);
+</script>
+
 <template>
     <div class="contact-form-label-and-input-ctn">
-        <label for="" class="contact-form-label-and-input-ctn-label">
-            First Name*
+        <label :for="labelFor" class="contact-form-label-and-input-ctn-label">
+            {{labelName}}
         </label>
-        <input type="text" class="contact-form-label-and-input-ctn-input">
+        <input :type="inputType" class="contact-form-label-and-input-ctn-input">
     </div>
 </template>
 
