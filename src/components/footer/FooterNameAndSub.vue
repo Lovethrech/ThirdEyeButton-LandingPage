@@ -13,7 +13,7 @@ import FooterSubContent from './FooterSubContent.vue';
 <style scoped>
 .footer-name-and-sub{
     width: 50%;
-    min-height: 40vh;
+    min-height: 50vh;
     background: linear-gradient(to right, #ffffff, #cae0ff);
     padding: 3vh 0;
     display: flex;
