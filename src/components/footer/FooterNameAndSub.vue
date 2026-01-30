@@ -1,10 +1,12 @@
 <script setup>
 import FooterName from './FooterName.vue';
+import FooterSubContent from './FooterSubContent.vue';
 </script>
 
 <template>
     <div class="footer-name-and-sub">
         <FooterName></FooterName>
+        <FooterSubContent></FooterSubContent>
     </div>
 </template>
 
