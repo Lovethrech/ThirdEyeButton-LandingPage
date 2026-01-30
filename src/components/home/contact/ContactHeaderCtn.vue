@@ -34,6 +34,7 @@
     font-family: "Cormorant Unicase", serif;
     font-size: 1.6vh;
     letter-spacing: 0.3vh;
+    margin:2vh 0;
 }
 .contact-header-desc{
     font-size: 1.6vh;

@@ -22,7 +22,6 @@ import ContactHeaderCtn from './ContactHeaderCtn.vue';
 }
 .contact-content-mini-ctn{
     width:50%;
-    background-color: orange;
     padding:2vh 3vw;
 }
 </style>
