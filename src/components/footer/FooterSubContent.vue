@@ -51,6 +51,11 @@
 </template>
 
 <style scoped>
+.footer-sub-content{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+}
 .footer-sub-title{
     font-size: 3vh;
     font-family: "Cormorant Unicase", serif;
