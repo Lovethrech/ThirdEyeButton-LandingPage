@@ -1,6 +1,7 @@
 <script setup>
 import contactLabelAndInputFormats from "@/data/contact-label-and-input-formats.json";
 import ContactFormLabelAndInput from './ContactFormLabelAndInput.vue';
+import ContactFormBtn from "./ContactFormBtn.vue";
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import ContactFormLabelAndInput from './ContactFormLabelAndInput.vue';
             >
             </ContactFormLabelAndInput>
         </div>
+        <ContactFormBtn></ContactFormBtn>
     </div>
 </template>
 
