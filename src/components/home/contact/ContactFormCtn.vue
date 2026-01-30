@@ -4,8 +4,14 @@ import ContactFormLabelAndInput from './ContactFormLabelAndInput.vue';
 </script>
 
 <template>
-    <div class="contact-form-ctn">
-        <div class="contact-form-mini-ctn" v-for="contactLabelAndInputFormat in contactLabelAndInputFormats" :key="contactLabelAndInputFormat.id">
+    <div 
+        class="contact-form-ctn"
+    >
+        <div 
+            class="contact-form-mini-ctn" 
+            v-for="contactLabelAndInputFormat in contactLabelAndInputFormats" 
+            :key="contactLabelAndInputFormat.id"
+        >
             <ContactFormLabelAndInput></ContactFormLabelAndInput>
         </div>
     </div>
