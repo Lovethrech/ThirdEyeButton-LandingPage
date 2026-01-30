@@ -30,6 +30,7 @@ const {name, desc}=defineProps(['name', 'desc']);
 .review-customer-name{
     width: 46%;
     font-size: 2vh;
+    font-weight:600;
     font-family: "Old Standard TT", serif;
 }
 .review-customer-comment-ctn{
