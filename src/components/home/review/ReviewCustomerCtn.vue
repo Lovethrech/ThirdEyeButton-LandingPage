@@ -9,7 +9,7 @@ import ReviewCustomer from './ReviewCustomer.vue';
     >
         <div 
             class="review-customer-main-ctn"
-            >
+        >
             <div 
                 v-for="reviewCustomerDetail in reviewCustomerDetails"
                 :key="reviewCustomerDetail.id"
