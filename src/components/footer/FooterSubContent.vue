@@ -31,16 +31,16 @@
                 </label>
             </div>
             <div 
-                class="contact-form-btn-ctn"
+                class="footer-form-btn-ctn"
             >
                 <a 
                     href="" 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    id="contact-form-btn-link"
+                    id="footer-form-btn-link"
                 >
                     <button 
-                        class="contact-form-btn"
+                        class="footer-form-btn"
                     >
                         Submit
                     </button>
