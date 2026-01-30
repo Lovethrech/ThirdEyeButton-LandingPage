@@ -7,3 +7,11 @@ import FooterName from './FooterName.vue';
         <FooterName></FooterName>
     </div>
 </template>
+
+<style scoped>
+.footer-name-and-sub{
+    width: 100%;
+    min-height: 40vh;
+    background: linear-gradient(to right, #ffffff, #cae0ff);
+}
+</style>

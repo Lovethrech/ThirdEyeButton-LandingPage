@@ -9,3 +9,9 @@ import FooterNameAndSub from './footer/FooterNameAndSub.vue';
         </div>
     </footer>
 </template>
+
+<style scoped>
+footer{
+    
+}
+</style>
