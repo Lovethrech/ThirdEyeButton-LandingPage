@@ -8,8 +8,11 @@
         </p>
         <p class="contact-header-desc">
             Have questions or interested in learning more about our
+            <br/>
             default website interface for exam scheduling? Contact us
-            today to explore how ThirdEyeButton can elevate your
+            <br/>
+            today to explore how ThirdEyeButton can elevate you
+            <br/>
             university's exam management
         </p>
     </div>
