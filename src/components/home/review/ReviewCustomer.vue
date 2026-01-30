@@ -40,6 +40,10 @@ const {name, desc}=defineProps(['name', 'desc']);
 }
 
 @media screen and (max-width: 990px){
+    .review-customer{
+        flex-direction: column;
+        justify-content: right;
+    }
     .review-customer-name{
         width:50%;
     }
