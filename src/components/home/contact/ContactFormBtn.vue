@@ -7,3 +7,16 @@
         </a>
     </div>
 </template>
+
+<style scoped>
+.contact-form-btn-ctn{
+    background-color: blue;
+    width: 100%;
+}
+.contact-form-btn{
+    width: 100%;
+    background-color: red;
+    padding: 1vh 1vw;
+    font-size: 1.8vh;
+}
+</style>
