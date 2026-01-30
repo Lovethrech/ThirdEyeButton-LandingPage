@@ -19,8 +19,8 @@
     },
     {
         "id":"4",
-        "labelName":"First Name*:",
-        "labelFor":"firstName",
-        "inputType":"text"
+        "labelName":"Phone:",
+        "labelFor":"phoneNumber",
+        "inputType":"tel"
     }
 ]
