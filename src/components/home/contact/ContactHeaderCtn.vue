@@ -21,6 +21,8 @@
 <style scoped>
 .contact-header-ctn{
     background-color: red;
+    display:flex;
+    flex-direction: column;
 }
 .contact-header-title{
 
