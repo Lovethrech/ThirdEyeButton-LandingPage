@@ -17,3 +17,15 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.contact-header-title{
+
+}
+.contact-header-subtitle{
+
+}
+.contact-header-desc{
+    
+}
+</style>
