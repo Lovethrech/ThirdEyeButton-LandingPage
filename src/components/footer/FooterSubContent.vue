@@ -74,4 +74,23 @@
     font-size: 1.8vh;
     font-family: "Roboto Condensed", sans-serif;
 }
+
+.footer-form-btn-ctn{
+    width: 100%;    
+}
+.footer-form-btn{
+    width: 100%;
+    background-color: #000000;
+    font-family: "Cormorant Unicase", serif;
+    letter-spacing:1vh;
+    color: #ffffff;
+    padding: 1vh 1vw;
+    font-size: 1.8vh;
+    border-radius: 20vh;
+}
+.footer-form-btn:hover{
+    cursor: pointer;
+    transform: scale(0.98);
+    transition: all .4s;
+}
 </style>
