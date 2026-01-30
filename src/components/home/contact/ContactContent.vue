@@ -1,11 +1,11 @@
 <script setup>
-
+import ContactHeaderCtn from './ContactHeaderCtn.vue';
 </script>
 
 <template>
     <section class="contact-content">
         <div class="contact-content-mini-ctn">
-
+            <ContactHeaderCtn></ContactHeaderCtn>
         </div>
     </section>
 </template>
