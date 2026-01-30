@@ -36,5 +36,9 @@ import ContactFormCtn from './ContactFormCtn.vue';
         width: 100%;
     }
 }
-
+@media screen and (width: 1024px) and (min-height:1360px) {
+    .contact-content-mini-ctn{
+        width: 100%;
+    }
+}
 </style>
