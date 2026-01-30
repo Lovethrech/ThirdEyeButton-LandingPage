@@ -25,7 +25,7 @@
                 >
                 <label 
                     for="email" 
-                    class="footer-sub-content-form-checkboxlabel"
+                    class="footer-sub-content-form-checkbox-label"
                 >
                     Yes, subscribe me to your newsletter. 
                 </label>
@@ -35,5 +35,27 @@
 </template>
 
 <style scoped>
-
+.footer-sub-title{
+    font-size: 3vh;
+    font-family: "Cormorant Unicase", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.footer-sub-content-form-email-ctn{
+    display: flex;
+    flex-direction: column;
+}
+.footer-sub-content-form-email-input{
+    margin: 1vh 0;
+    border: 0;
+    background: transparent;
+    border-bottom: 0.2vh solid #000000;
+    padding: 1vh 1vw;
+    font-size: 1.8vh;
+}
+.footer-sub-content-form-email-label{
+    font-size: 1.8vh;
+    font-family: "Roboto Condensed", sans-serif;
+}
 </style>
