@@ -39,9 +39,6 @@ import ReviewCustomer from './ReviewCustomer.vue';
 }
 
 @media screen and (max-width:990px){
-    .review-customer-ctn{
-        
-    }
     .review-customer-main-ctn{
         width: 100%;
         justify-content: space-between;
