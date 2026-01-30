@@ -20,13 +20,15 @@
 
 <style scoped>
 .contact-header-ctn{
-    background-color: red;
     display:flex;
     flex-direction: column;
     text-align: center;
 }
 .contact-header-title{
-
+    font-size: 5vh;
+    font-family: "Old Standard TT", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
 }
 .contact-header-subtitle{
 
