@@ -18,7 +18,6 @@ import FooterPolicyCtn from './FooterPolicyCtn.vue';
     display: flex;
 }
 .footer-link-and-policy{
-    min-height: 50vh;
     background: linear-gradient(to left, #ffffff, #cae0ff);
     padding: 3vh 0;
     justify-content: right;
