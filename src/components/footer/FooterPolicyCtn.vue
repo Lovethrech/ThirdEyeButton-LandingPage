@@ -21,6 +21,6 @@ const policies=[
 
 <template>
     <div class="footer-policy-ctn">
-
+        
     </div>
 </template>
