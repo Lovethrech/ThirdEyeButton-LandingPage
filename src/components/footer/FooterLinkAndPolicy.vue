@@ -13,25 +13,27 @@ import FooterPolicyCtn from './FooterPolicyCtn.vue';
 </template>
 
 <style scoped>
-.footer-link-and-policy{
+.footer-link-and-policy, .footer-link-and-policy-mini-ctn{
     width: 50%;
+    display: flex;
+}
+.footer-link-and-policy{
     min-height: 50vh;
     background: linear-gradient(to left, #ffffff, #cae0ff);
     padding: 3vh 0;
-    display: flex;
     justify-content: right;
     align-items:end;
 }
 .footer-link-and-policy-mini-ctn{
-    width: 50%;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 @media screen and (max-width:990px) {
-    .footer-link-and-policy{
+    .footer-link-and-policy, .footer-link-and-policy-mini-ctn{
         width: 100%;
+    }
+    .footer-link-and-policy{
         background: transparent;
     }
 }
