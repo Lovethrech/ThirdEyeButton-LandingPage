@@ -9,3 +9,15 @@ import FooterTelAddrIcon from './FooterTelAddrIcon.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+.footer-link-and-policy{
+    width: 50%;
+    min-height: 50vh;
+    background: linear-gradient(to right, #ffffff, #cae0ff);
+    padding: 3vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+</style>
