@@ -7,8 +7,13 @@
         >
             Stay tuned
         </p>
-        <form action="" class="footer-sub-content-form">
-            <div class="footer-sub-content-form-email-ctn">
+        <form 
+            action="" 
+            class="footer-sub-content-form"
+        >
+            <div 
+                class="footer-sub-content-form-email-ctn"
+            >
                 <label 
                     for="email" 
                     class="footer-sub-content-form-email-label"
