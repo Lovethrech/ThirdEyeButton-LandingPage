@@ -57,6 +57,9 @@ const {title, tag, desc}=defineProps(['title', 'tag', 'desc']);
     .process-title-tag{
         margin:0;
     }
+    .process-title-desc-ctn{
+        font-size: 1.6vh;
+    }
 }
 @media screen and (max-width:990px) and (min-width:346px){
     .process-title-name, .process-title-tag, .process-title-desc-ctn{
@@ -64,6 +67,9 @@ const {title, tag, desc}=defineProps(['title', 'tag', 'desc']);
     }
     .process-title-tag{
         margin:0;
+    }
+    .process-title-desc-ctn{
+        font-size: 1.6vh;
     }
 
 }

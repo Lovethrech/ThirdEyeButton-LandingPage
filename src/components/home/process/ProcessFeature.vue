@@ -42,4 +42,16 @@ const {subTitle, title, desc}=defineProps(['subTitle', "title", "desc"]);
     font-weight: 300;
     line-height: 4vh;
 }
+
+@media screen and (max-width:990px){
+    .process-feature-sub-title{
+        font-size: 1.2vh;
+    }
+    .process-feature-title{
+        font-size: 2vh;
+    }
+    .process-feature-desc{
+        font-size: 1.6vh;
+    }
+}
 </style>
