@@ -24,5 +24,7 @@ import FooterPolicyCtn from './FooterPolicyCtn.vue';
 }
 .footer-link-and-policy-mini-ctn{
     width: 50%;
+    display: flex;
+    flex-direction: row;
 }
 </style>
