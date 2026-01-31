@@ -32,6 +32,10 @@
 }
 
 @media screen and (max-width:990px) {
-    
+    .footer-tel-address-and-icon-ctn-tel-and-link{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 </style>
