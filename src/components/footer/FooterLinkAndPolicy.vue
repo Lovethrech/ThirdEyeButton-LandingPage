@@ -14,7 +14,7 @@ import FooterTelAddrIcon from './FooterTelAddrIcon.vue';
 .footer-link-and-policy{
     width: 50%;
     min-height: 50vh;
-    background: linear-gradient(to right, #ffffff, #cae0ff);
+    background: linear-gradient(to left, #ffffff, #cae0ff);
     padding: 3vh 0;
     display: flex;
     flex-direction: column;

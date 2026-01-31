@@ -16,4 +16,8 @@ import FooterLinkAndPolicy from './footer/FooterLinkAndPolicy.vue';
 footer{
     padding: 0 4vw;
 }
+.footer-main-ctn{
+    display: flex;
+    flex-direction: row;
+}
 </style>
