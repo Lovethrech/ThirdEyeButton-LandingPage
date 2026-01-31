@@ -14,6 +14,9 @@
                 <br/>
                 NG, 100217
             </p>
+            <div class="footer-icon-ctn">
+                <div class="footer-icon"></div>
+            </div>
         </div>
         
     </div>
