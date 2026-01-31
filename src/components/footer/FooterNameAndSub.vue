@@ -25,7 +25,6 @@ import FooterSubContent from './FooterSubContent.vue';
     .footer-name-and-sub{
         width: 100%;
         background: linear-gradient(to bottom, #ffffff, #cae0ff);
-        
     }
 }
 </style>
