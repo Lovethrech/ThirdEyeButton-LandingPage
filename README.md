@@ -35,9 +35,15 @@ Built with clean architecture, mobile-first design, and smooth user experience.
 
 ## ⚡ Key Features
 
-```sh
-npm install
-```
+### Compile and Hot-Reload for Development
+
+- **Drag-and-drop** or form-based timetable creation
+- Automatic conflict detection & resolution suggestions
+- Role-based authentication & protected routes
+- Export schedule as PDF/CSV
+- Responsive dashboard with charts (e.g., room utilization)
+- Dark mode support
+- Form validation & error handling with nice UX feedback
 
 ## 🛠️ Getting Started (Show you care about DX)
 
@@ -64,25 +70,3 @@ npm run dev
 
 # Preview production build
 npm preview
-
-### Compile and Hot-Reload for Development
-
-- **Drag-and-drop** or form-based timetable creation
-- Automatic conflict detection & resolution suggestions
-- Role-based authentication & protected routes
-- Export schedule as PDF/CSV
-- Responsive dashboard with charts (e.g., room utilization)
-- Dark mode support
-- Form validation & error handling with nice UX feedback
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
