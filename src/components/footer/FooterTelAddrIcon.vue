@@ -8,7 +8,17 @@
                 info@mysite.com
             </p>
         </div>
-        
+        <div class="footer-address-ctn">
+            <p class="footer-address-name">
+                Idiroko, Benji Village
+                <br/>
+                NG, 100217
+            </p>
+        </div>
         
     </div>
 </template>
+
+<style scoped>
+
+</style>

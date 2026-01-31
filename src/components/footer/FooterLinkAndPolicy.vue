@@ -21,7 +21,6 @@ import FooterTelAddrIcon from './FooterTelAddrIcon.vue';
     align-items:end;
 }
 .footer-link-and-policy-mini-ctn{
-    background-color: red;
     width: 50%;
 }
 </style>
