@@ -5,7 +5,7 @@ import FooterLinkAndPolicy from './footer/FooterLinkAndPolicy.vue';
 
 <template>
     <footer>
-        <div class="footer-main-ctn">
+        <div    class="footer-main-ctn">
             <FooterNameAndSub></FooterNameAndSub>
             <FooterLinkAndPolicy></FooterLinkAndPolicy>
         </div>
