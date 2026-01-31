@@ -4,8 +4,12 @@ import FooterPolicyCtn from './FooterPolicyCtn.vue';
 </script>
 
 <template>
-    <div class="footer-link-and-policy">
-        <div class="footer-link-and-policy-mini-ctn">
+    <div 
+        class="footer-link-and-policy"
+    >
+        <div 
+            class="footer-link-and-policy-mini-ctn"
+        >
             <FooterTelAddrIcon></FooterTelAddrIcon>
             <FooterPolicyCtn></FooterPolicyCtn>
         </div>
