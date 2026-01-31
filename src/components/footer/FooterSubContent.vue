@@ -97,6 +97,8 @@
 }
 
 @media screen and (max-width:990px) {
-    
+    .footer-sub-content{
+        width: 100%;
+    }
 }
 </style>
