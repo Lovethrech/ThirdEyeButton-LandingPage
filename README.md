@@ -5,7 +5,14 @@ Built with clean architecture, mobile-first design, and smooth user experience.
 
 ## ✨ Highlights (Proof of Efficiency)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Conflict-free scheduling** engine with automated room/invigilator/time clash resolution
+- Real-time updates and role-based access (Admin, Staff, Student views)
+- **Mobile-first**, fully responsive design (tested on phones, tablets, desktops)
+- Clean folder structure + component-based architecture
+- Fast builds & instant previews thanks to **Vite**
+- **Pixel-perfect UI** with Tailwind CSS + custom design system
+- Deployed with CI/CD on Netlify (automatic previews on every PR)
+- Accessible (a11y), semantic HTML, good SEO foundations
 
 ## Recommended Browser Setup
 
