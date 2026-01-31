@@ -47,10 +47,4 @@ const policies=[
     text-decoration: underline;
     text-decoration-color: darkgrey;
 }
-
-@media screen and (max-width:990px) {
-    .footer-policy-ctn{
-        text-align: center;
-    }
-}
 </style>
