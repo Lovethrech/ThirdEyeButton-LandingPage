@@ -36,5 +36,8 @@ import FooterPolicyCtn from './FooterPolicyCtn.vue';
     .footer-link-and-policy{
         background: transparent;
     }
+    .footer-link-and-policy-mini-ctn{
+        flex-direction: column;
+    }
 }
 </style>
