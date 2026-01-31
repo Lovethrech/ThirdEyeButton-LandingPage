@@ -76,7 +76,7 @@
     padding: 1vh 1vw;
     font-size: 1.6vh;
 }
-.footer-sub-content-form-email-label{
+.footer-sub-content-form-email-label, .footer-sub-content-form-checkbox-label{
     font-size: 1.6vh;
     font-family: "Roboto Condensed", sans-serif;
 }
@@ -99,6 +99,9 @@
 @media screen and (max-width:990px) {
     .footer-sub-content{
         width: 100%;
+    }
+    .footer-sub-content-form-checkbox-label{
+        font-size: 1.6vh;
     }
 }
 </style>
