@@ -33,7 +33,7 @@ Built with clean architecture, mobile-first design, and smooth user experience.
 | Deployment        | Netlify      | Automatic CI/CD, previews, CDN       |
 | Other             | Vue Router,  | Routing                              |
 
-## Project Setup
+## ⚡ Key Features
 
 ```sh
 npm install
@@ -41,9 +41,13 @@ npm install
 
 ### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
-```
+- **Drag-and-drop** or form-based timetable creation
+- Automatic conflict detection & resolution suggestions
+- Role-based authentication & protected routes
+- Export schedule as PDF/CSV
+- Responsive dashboard with charts (e.g., room utilization)
+- Dark mode support
+- Form validation & error handling with nice UX feedback
 
 ### Compile and Minify for Production
 
