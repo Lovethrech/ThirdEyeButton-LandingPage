@@ -28,4 +28,11 @@ import FooterPolicyCtn from './FooterPolicyCtn.vue';
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media screen and (max-width:990px) {
+    .footer-link-and-policy{
+        width: 100%;
+        background: transparent;
+    }
+}
 </style>
