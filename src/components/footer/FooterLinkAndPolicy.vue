@@ -40,7 +40,6 @@ import FooterPolicyCtn from './FooterPolicyCtn.vue';
         padding: 0;
     }
     .footer-link-and-policy-mini-ctn{
-        flex-direction: column;
     }
 }
 </style>
