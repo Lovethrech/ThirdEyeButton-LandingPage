@@ -18,12 +18,14 @@ import FooterPolicyCtn from './FooterPolicyCtn.vue';
     display: flex;
 }
 .footer-link-and-policy{
+    min-height: 50vh;
     background: linear-gradient(to left, #ffffff, #cae0ff);
     padding: 3vh 0;
     justify-content: right;
     align-items:end;
 }
 .footer-link-and-policy-mini-ctn{
+    height: 50%;
     flex-direction: row;
     justify-content: space-between;
 }

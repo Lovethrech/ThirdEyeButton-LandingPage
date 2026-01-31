@@ -24,7 +24,6 @@
 
 <style scoped>
 .footer-tel-address-and-icon-ctn{
-    height: 100%;
     margin-bottom:3vh;
     display: flex;
     flex-direction: column;
