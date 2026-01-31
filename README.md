@@ -39,6 +39,13 @@ Built with clean architecture, mobile-first design, and smooth user experience.
 npm install
 ```
 
+## 🛠️ Getting Started (Show you care about DX)
+
+### Prerequisites
+
+- Node.js ≥ 18
+- pnpm or npm / yarn
+
 ### Compile and Hot-Reload for Development
 
 - **Drag-and-drop** or form-based timetable creation
