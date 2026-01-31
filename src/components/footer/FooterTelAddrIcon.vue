@@ -28,6 +28,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 1.4vh;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 @media screen and (max-width:990px) {
