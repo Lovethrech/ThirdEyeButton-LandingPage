@@ -22,5 +22,8 @@ footer{
 }
 
 @media screen and (max-width:990px) {
+    .footer-main-ctn{
+        flex-direction: column;
+    }
 }
 </style>
