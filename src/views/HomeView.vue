@@ -1,4 +1,5 @@
 <script setup>
+import MainHeader from "./components/MainHeader.vue";
 import MainHero from '@/components/home/hero/MainHero.vue';
 import AboutContent from '@/components/home/about/AboutContent.vue';
 import ProcessContent from '@/components/home/process/ProcessContent.vue';
@@ -9,6 +10,7 @@ import MainFooter from '@/components/MainFooter.vue';
 
 <template>
   <main>
+    <MainHeader></MainHeader>
     <MainHero></MainHero>
     <AboutContent></AboutContent>
     <ProcessContent></ProcessContent>
