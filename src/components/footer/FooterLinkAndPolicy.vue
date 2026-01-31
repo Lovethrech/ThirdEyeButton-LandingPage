@@ -33,12 +33,14 @@ import FooterPolicyCtn from './FooterPolicyCtn.vue';
 @media screen and (max-width:990px) {
     .footer-link-and-policy, .footer-link-and-policy-mini-ctn{
         width: 100%;
-        height: 100%;
     }
     .footer-link-and-policy{
-        background: transparent;
+        background: orange;
         align-items: flex-start;
         padding: 0;
+    }
+    .footer-link-and-policy-mini-ctn{
+        background-color: blueviolet;
     }
 }
 </style>

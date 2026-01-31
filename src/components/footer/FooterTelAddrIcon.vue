@@ -33,6 +33,8 @@
 @media screen and (max-width:990px) {
     .footer-tel-address-and-icon-ctn{
         height: 100%;
+        background-color: red;
+        height: 100%;
         justify-content: space-between;
     }
 }
