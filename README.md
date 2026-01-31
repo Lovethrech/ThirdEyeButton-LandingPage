@@ -3,7 +3,7 @@
 Modern, responsive web application for automated university examination timetabling.
 Built with clean architecture, mobile-first design, and smooth user experience.
 
-## Recommended IDE Setup
+## ✨ Highlights (Proof of Efficiency)
 
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
