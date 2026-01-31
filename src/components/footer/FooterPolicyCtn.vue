@@ -42,6 +42,8 @@ const policies=[
 }
 
 @media screen and (max-width:990px) {
-    
+    .footer-policy-ctn{
+        text-align: center;
+    }
 }
 </style>
