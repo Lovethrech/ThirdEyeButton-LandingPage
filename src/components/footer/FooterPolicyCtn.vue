@@ -40,4 +40,8 @@ const policies=[
 .footer-policy{
     text-transform: capitalize;
 }
+
+@media screen and (max-width:990px) {
+    
+}
 </style>

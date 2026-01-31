@@ -34,6 +34,7 @@ import FooterPolicyCtn from './FooterPolicyCtn.vue';
         width: 100%;
     }
     .footer-link-and-policy{
+        min-height: 30vh;
         background: transparent;
         align-items: flex-start;
         padding: 0;
