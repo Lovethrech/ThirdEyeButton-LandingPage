@@ -28,7 +28,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 3vh;
 }
 
 @media screen and (max-width:990px) {
