@@ -95,4 +95,8 @@
     transform: scale(0.98);
     transition: all .4s;
 }
+
+@media screen and (max-width:990px) {
+    
+}
 </style>
