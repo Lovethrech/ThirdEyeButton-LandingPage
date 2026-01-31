@@ -17,7 +17,11 @@ import FooterTelAddrIcon from './FooterTelAddrIcon.vue';
     background: linear-gradient(to left, #ffffff, #cae0ff);
     padding: 3vh 0;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: right;
+    align-items:end;
+}
+.footer-link-and-policy-mini-ctn{
+    background-color: red;
+    width: 50%;
 }
 </style>
