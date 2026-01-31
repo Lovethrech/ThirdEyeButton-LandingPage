@@ -1,6 +1,10 @@
 <template>
-    <div class="footer-sub-content">
-        <p class="footer-sub-title">
+    <div 
+        class="footer-sub-content"
+    >
+        <p 
+            class="footer-sub-title"
+        >
             Stay tuned
         </p>
         <form action="" class="footer-sub-content-form">
