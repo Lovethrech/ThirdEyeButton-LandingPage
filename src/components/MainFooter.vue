@@ -24,6 +24,7 @@ footer{
 @media screen and (max-width:990px) {
     footer{
         border-top: 0.5vh double #000000;
+        background: linear-gradient(to bottom, #ffffff, #cae0ff);
     }
     .footer-main-ctn{
         flex-direction: column;
