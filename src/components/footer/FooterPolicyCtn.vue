@@ -43,6 +43,8 @@ const policies=[
     margin-bottom: 1vh;    
 }
 .footer-policy{
+    font-size: 1.6vh;
+    font-family: "Roboto Condensed", sans-serif;
     text-transform: capitalize;
     text-decoration: underline;
     text-decoration-color: darkgrey;
