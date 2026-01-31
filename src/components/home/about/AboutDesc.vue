@@ -63,6 +63,7 @@ import AboutExploreBtn from './AboutExploreBtn.vue';
     }
     #about-desc{
         text-align:justify;
+        font-size: 1.6vh;
     }
 }
 </style>
