@@ -62,8 +62,6 @@
 <style scoped>
 .footer-sub-content{
     width:40%;
-    display: flex;
-    flex-direction: column;
     gap:2vh;
 }
 .footer-sub-title{
@@ -73,7 +71,7 @@
     font-weight: 400;
     text-transform: capitalize;
 }
-.footer-sub-content-form-email-ctn{
+.footer-sub-content, .footer-sub-content-form-email-ctn{
     display: flex;
     flex-direction: column;
 }
