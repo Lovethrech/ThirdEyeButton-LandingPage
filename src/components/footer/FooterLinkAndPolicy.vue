@@ -26,5 +26,6 @@ import FooterPolicyCtn from './FooterPolicyCtn.vue';
     width: 50%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 </style>

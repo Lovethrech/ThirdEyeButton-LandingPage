@@ -32,3 +32,12 @@ const policies=[
         </div>
     </div>
 </template>
+
+<style scoped>
+.footer-policy-mini-ctn{
+    margin-bottom: 1vh;
+}
+.footer-policy{
+    text-transform: capitalize;
+}
+</style>
