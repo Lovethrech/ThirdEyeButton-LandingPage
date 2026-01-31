@@ -23,7 +23,7 @@ footer{
 
 @media screen and (max-width:990px) {
     footer{
-        border-top: 1vh double #000000;
+        border-top: 0.5vh double #000000;
     }
     .footer-main-ctn{
         flex-direction: column;
