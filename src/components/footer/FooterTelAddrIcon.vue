@@ -30,4 +30,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media screen and (max-width:990px) {
+    
+}
 </style>
