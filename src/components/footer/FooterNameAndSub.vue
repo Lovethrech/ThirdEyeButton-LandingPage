@@ -20,4 +20,12 @@ import FooterSubContent from './FooterSubContent.vue';
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media screen and (max-width:990px) {
+    .footer-name-and-sub{
+        width: 100%;
+        background: linear-gradient(to bottom, #ffffff, #cae0ff);
+        
+    }
+}
 </style>
