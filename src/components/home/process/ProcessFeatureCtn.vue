@@ -33,19 +33,19 @@ import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
 </template>
 
 <style scoped>
+.process-feature-ctn, .process-feature-main-ctn, .process-feature-mini-ctn{
+    display: flex;
+}
 .process-feature-ctn{
-    display:flex;
     justify-content: right;
 }
 #process-feature-main-ctn{
     width:44%;    
-    display: flex;
     flex-direction: column;
     gap:3vh;    
 }
 #process-feature-mini-ctn{
     padding: 4vh 0;  
-    display: flex;  
     flex-direction: row;
     justify-content: space-between;
 }
