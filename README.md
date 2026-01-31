@@ -70,3 +70,21 @@ npm run dev
 
 # Preview production build
 npm preview
+```
+
+## 🔮 Future Improvements (shows forward thinking)
+
+- Integration with real backend API (currently static)
+- Notifications (email and in-app)
+- Multi-language support
+- Unit + E2E testing (Vitest + Playwright)
+
+## 📄 License
+
+MIT License – feel free to use parts for learning/portfolio.
+
+
+## 👤 Author
+
+**OLAONIPEKUN DOLAPO RACHAEL**
+*/FRONTEND DEVELOPER- VUE SPECIALIST/*
