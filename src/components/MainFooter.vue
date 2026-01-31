@@ -20,4 +20,7 @@ footer{
     display: flex;
     flex-direction: row;
 }
+
+@media screen and (max-width:990px) {
+}
 </style>
