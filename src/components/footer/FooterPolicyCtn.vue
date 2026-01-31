@@ -34,8 +34,13 @@ const policies=[
 </template>
 
 <style scoped>
+.footer-policy-ctn{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+}
 .footer-policy-mini-ctn{
-    margin-bottom: 1vh;
+    margin-bottom: 1vh;    
 }
 .footer-policy{
     text-transform: capitalize;
