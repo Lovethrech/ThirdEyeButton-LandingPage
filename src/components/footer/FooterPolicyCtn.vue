@@ -21,6 +21,14 @@ const policies=[
 
 <template>
     <div class="footer-policy-ctn">
-        
+        <div class="footer-policy-mini-ctn" v-for="policy in policies" :key="policy.id">
+            <div class="footer-policy-major-ctn">
+                <RouterLink to="">
+                    <p class="footer-policy">
+                        {{ policy.name }}
+                    </p>
+                </RouterLink>
+            </div>
+        </div>
     </div>
 </template>
