@@ -1,6 +1,7 @@
-# web
+# ThirdEyeButton – University Exam Scheduling System
 
-This template should help get you started developing with Vue 3 in Vite.
+Modern, responsive web application for automated university examination timetabling.
+Built with clean architecture, mobile-first design, and smooth user experience.
 
 ## Recommended IDE Setup
 
