@@ -14,14 +14,11 @@ Built with clean architecture, mobile-first design, and smooth user experience.
 - Deployed with CI/CD on Netlify (automatic previews on every PR)
 - Accessible (a11y), semantic HTML, good SEO foundations
 
-## Recommended Browser Setup
+## 📸 Screenshots
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+**Desktop design**
+![alt text](Screenshot_31-1-2026_131515_thirdeyebutton-it-consulting-company.netlify.app.jpeg)
+****
 
 ## Customize configuration
 
