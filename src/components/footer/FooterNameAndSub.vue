@@ -23,7 +23,9 @@ import FooterSubContent from './FooterSubContent.vue';
 
 @media screen and (max-width:990px) {
     .footer-name-and-sub{
+        flex-direction: row;
         width: 100%;
+        min-height:40vh;
         background: transparent;
     }
 }
