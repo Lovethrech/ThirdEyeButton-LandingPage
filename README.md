@@ -20,8 +20,6 @@ Built with clean architecture, mobile-first design, and smooth user experience.
 ![alt text](Screenshot_31-1-2026_234051_localhost.jpeg)
 **Mobile interface**
 ![alt text](Screenshot_31-1-2026_234011_localhost.jpeg)
-**Short Video**
-<video controls src="ThirdEyeButton IT consultant and 11 more pages - Personal - Microsoft​ Edge 2026-01-31 23-49-08.mp4" title="DesktopInterface Slide"></video>
 
 ## 🚀 Tech Stack
 
@@ -82,7 +80,6 @@ npm preview
 ## 📄 License
 
 MIT License – feel free to use parts for learning/portfolio.
-
 
 ## 👤 Author
 
