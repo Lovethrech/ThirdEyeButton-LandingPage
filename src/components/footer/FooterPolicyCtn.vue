@@ -44,6 +44,8 @@ const policies=[
 }
 .footer-policy{
     text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-color: darkgrey;
 }
 
 @media screen and (max-width:990px) {
