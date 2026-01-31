@@ -19,6 +19,7 @@ Built with clean architecture, mobile-first design, and smooth user experience.
 **Desktop interface**
 ![alt text](Screenshot_31-1-2026_131515_thirdeyebutton-it-consulting-company.netlify.app.jpeg)
 **Mobile interface**
+![alt text](Screenshot_31-1-2026_234011_localhost.jpeg)
 
 ## Customize configuration
 
