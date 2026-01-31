@@ -46,6 +46,25 @@ npm install
 - Node.js ≥ 18
 - pnpm or npm / yarn
 
+### Installation
+
+```bash
+# Clone
+git clone https://github.com/yourusername/thirdeyebutton-frontend.git
+cd thirdeyebutton-frontend
+
+# Install
+npm install
+
+# Development server (usually opens http://localhost:5173)
+npm dev
+
+# Build for production
+npm run dev
+
+# Preview production build
+npm preview
+
 ### Compile and Hot-Reload for Development
 
 - **Drag-and-drop** or form-based timetable creation
