@@ -21,11 +21,17 @@ Built with clean architecture, mobile-first design, and smooth user experience.
 **Mobile interface**
 ![alt text](Screenshot_31-1-2026_234011_localhost.jpeg)
 **Short Video**
-<video controls src="ThirdEyeButton IT consultant and 11 more pages - Personal - Microsoft​ Edge 2026-01-31 23-49-08.mp4" title="Desktop Interface Slide"></video>
+<video controls src="ThirdEyeButton IT consultant and 11 more pages - Personal - Microsoft​ Edge 2026-01-31 23-49-08.mp4" title="DesktopInterface Slide"></video>
 
-## Customize configuration
+## 🚀 Tech Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+| Category          | Technology   | Purpose                              |
+|-------------------|--------------|--------------------------------------|
+| Framework         | Vue + Vite   | Fast development & production build  |
+| Styling           | Pure CSS     | Utility-first, rapid & consistent UI |
+| State Management  | Pinia        | Lightweight global state             |
+| Deployment        | Netlify      | Automatic CI/CD, previews, CDN       |
+| Other             | Vue Router,  | Routing                              |
 
 ## Project Setup
 
