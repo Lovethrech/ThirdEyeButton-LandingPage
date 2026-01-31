@@ -8,7 +8,7 @@
                 info@mysite.com
             </p>
         </div>
-        <div class="footer-address-ctn">
+        <div class="footer-address-and-icon-ctn">
             <p class="footer-address-name">
                 Idiroko, Benji Village
                 <br/>
@@ -20,5 +20,11 @@
 </template>
 
 <style scoped>
-
+.footer-tel-address-and-icon-ctn{
+    height: 20vh;
+    margin-bottom:3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 </style>
