@@ -35,13 +35,9 @@ import FooterPolicyCtn from './FooterPolicyCtn.vue';
         width: 100%;
     }
     .footer-link-and-policy{
-        background: orange;
         min-height: 18vh;
         align-items: flex-start;
         padding: 0;
-    }
-    .footer-link-and-policy-mini-ctn{
-        background-color: blueviolet;
     }
 }
 </style>
