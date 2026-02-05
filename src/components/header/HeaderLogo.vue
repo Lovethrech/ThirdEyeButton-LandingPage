@@ -6,7 +6,7 @@
             to="/"
         >
             <img 
-                src="/src/assets/logo.svg" 
+                src="/src/assets/logo.png" 
                 alt="ThirdEyeButton Logo"
             /> 
         </RouterLink>
@@ -15,7 +15,7 @@
 
 <style scoped>
 #header-logo-ctn{
-    width:12vh;
+    width:8vh;
 }
 #header-logo-ctn img{
     width: 100%;
