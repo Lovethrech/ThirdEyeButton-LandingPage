@@ -38,7 +38,7 @@ import ProcessFeatureIcon from './ProcessFeatureIcon.vue';
 }
 .process-feature-ctn{
     justify-content: right;
-    margin-bottom: 10vh
+    margin-bottom: 10vh;
 }
 #process-feature-main-ctn{
     width:44%;    
